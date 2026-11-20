@@ -12,7 +12,7 @@ function searchable(value) {
 function target(id, currentPage=page) {
   const params = new URLSearchParams();
   for (const [key, value] of [["q",termBox.value.trim()],["bureau",bureauBox.value],["view",collectionBox.value],["nature",natureFilter],["group",networkGroup.value],["state",networkState.value],["id",id]]) {
-    if (value) params.set(key,value);
+    if (value && (!["state","group"].includes(key) || ["checklist","networks"].includes(collectionBox.value))) params.set(key,value);
   }
   if (currentPage) params.set("page",String(currentPage+1));
   return location.pathname+(params.size?"?"+params:"");
@@ -102,7 +102,7 @@ function showDetail(entry,focus=false) {
     return;
   }
   selected=entry.id;
-  if(entry.kind==="networks"){
+  if(entry.kind==="networks" || entry.kind==="checklist"){
     showNetworkDetail(entry.data,focus);
     return;
   }
@@ -134,8 +134,9 @@ function showDetail(entry,focus=false) {
 }
 function render() {
   const term=searchable(termBox.value.trim()), bureau=bureauBox.value, view=collectionBox.value;
-  const isNetwork=view==="networks";
-  q("main h1").textContent=isNetwork?"客运线路与八纵八横":view==="trunks"?"主要客运干线":"全国铁路目录";
+  const isNetwork=view==="networks" || view==="checklist";
+  setNetworkScope(view);
+  q("main h1").textContent=view==="checklist"?"客运清单核对":isNetwork?"客运线路与八纵八横":view==="trunks"?"主要客运干线":"全国铁路目录";
   q("#network-context").hidden=!isNetwork;
   q("#network-reference").hidden=isNetwork;
   q("#bureau-field").hidden=isNetwork;
@@ -143,15 +144,15 @@ function render() {
   q("#trunk-tools").hidden=view!=="trunks";
   termBox.placeholder=view==="trunks"?"干线名称、沿线城市或车站":"线路、站名、局简称或区段";
   for(const button of document.querySelectorAll("[data-nature]"))button.setAttribute("aria-pressed",String(button.dataset.nature===natureFilter));
-  filtered=records.filter(r=>(view==="all"||r.kind===view)&&(!natureFilter||r.data.type===natureFilter)&&(!bureau||r.data.bureauId===bureau)&&(!term||r.key.includes(term))&&
-    (!isNetwork||((!networkGroup.value||networkGroup.value===r.data.groupId)&&(!networkState.value||networkState.value===r.data.status))));
+  filtered=records.filter(r=>((view==="all" && r.kind!=="checklist")||r.kind===view)&&(!natureFilter||r.data.type===natureFilter)&&(!bureau||r.data.bureauId===bureau)&&(!term||r.key.includes(term))&&
+    (!isNetwork||((!networkGroup.value||networkGroup.value===r.data.groupId)&&(!networkState.value || networkState.value==="any" || (networkState.value==="passenger" ? r.data.openedPassenger : networkState.value==="added" ? r.data.newArchive : networkState.value===r.data.status)))));
   const pages=Math.max(1,Math.ceil(filtered.length/pageLength));
   page=Math.max(0,Math.min(page,pages-1));
   q("#result-summary").textContent="匹配 "+fmt(filtered.length)+(view==="trunks"?" 条干线":" 项")+(natureFilter==="highspeed"?" · "+highspeedScope:"");
   resultsBox.innerHTML=filtered.slice(page*pageLength,(page+1)*pageLength).map(r=>{
-    const label=r.kind==="networks"?statusName(r.data.status):r.kind==="roster"?groups.get(r.data.bureauId).short:typeName(r.data.siteType || r.data.type);
-    const caption=r.kind==="networks"?'<span class="trunk-endpoints">'+esc(networkGroups.get(r.data.groupId)?.name)+'</span>':r.kind==="trunks"?'<span class="trunk-endpoints">'+esc([r.data.start,r.data.end].filter(Boolean).join(" → "))+'</span>':"";
-    return '<a href="'+esc(target(r.id))+'" data-entry="'+esc(r.id)+'"'+(selected===r.id?' aria-current="true"':'')+'><span><b>'+esc(r.data.raw||r.data.name)+'</b>'+caption+'</span><small>'+esc(label)+'</small></a>';
+    const label=(r.kind==="networks" || r.kind==="checklist")?statusName(r.data.status):r.kind==="roster"?groups.get(r.data.bureauId).short:typeName(r.data.siteType || r.data.type);
+    const caption=(r.kind==="networks" || r.kind==="checklist")?'<span class="trunk-endpoints">'+esc(networkGroups.get(r.data.groupId)?.name)+'</span>':r.kind==="trunks"?'<span class="trunk-endpoints">'+esc([r.data.start,r.data.end].filter(Boolean).join(" → "))+'</span>':"";
+    return '<a href="'+esc(target(r.id))+'" data-entry="'+esc(r.id)+'"'+(selected===r.id?' aria-current="true"':'')+'><span><b>'+esc(r.data.displayName||r.data.raw||r.data.name)+'</b>'+caption+'</span><small>'+esc(label)+'</small></a>';
   }).join("")||('<p>没有匹配资料。可以缩短关键词或清除筛选。</p>'+
     (view==="trunks"?siteLink("national.html?view=all&q="+encodeURIComponent(termBox.value),"在全部资料中继续查找"):""));
   q("#page-number").textContent=(page+1)+" / "+pages;
@@ -161,8 +162,9 @@ function restore() {
   const params=new URLSearchParams(location.search);
   termBox.value=params.get("q")||"";bureauBox.value=params.get("bureau")||"";collectionBox.value=params.get("view")||(bureauBox.value?"roster":params.has("q")||params.has("id")?"all":"trunks");
   if(!collectionBox.value)collectionBox.value="all";
-  networkGroup.value=collectionBox.value==="networks"?params.get("group")||"":"";
-  networkState.value=collectionBox.value==="networks"?params.get("state")||"":"";
+  setNetworkScope(collectionBox.value);
+  networkGroup.value=["checklist","networks"].includes(collectionBox.value)?params.get("group")||"":"";
+  networkState.value=["checklist","networks"].includes(collectionBox.value)?params.get("state")||(collectionBox.value==="checklist"?"passenger":""):"";
   natureFilter=collectionBox.value==="trunks"?params.get("nature")||"":"";
   if(!["highspeed","conventional"].includes(natureFilter))natureFilter="";
   if(bureauBox.value&&collectionBox.value==="facts")collectionBox.value="roster";
@@ -222,8 +224,13 @@ async function openNational(){
   termBox.oninput=resetResults;
   bureauBox.onchange=()=>{networkGroup.value=networkState.value="";if(bureauBox.value)collectionBox.value="roster";natureFilter="";resetResults();};
   networkGroup.onchange=networkState.onchange=resetResults;
-  collectionBox.onchange=()=>{networkGroup.value=networkState.value="";if(collectionBox.value!=="roster")bureauBox.value="";natureFilter="";resetResults();};
-  form.onreset=()=>{natureFilter="";requestAnimationFrame(resetResults);};
+  collectionBox.onchange=()=>{setNetworkScope(collectionBox.value);networkGroup.value="";networkState.value=collectionBox.value==="checklist"?"passenger":"";if(collectionBox.value!=="roster")bureauBox.value="";natureFilter="";resetResults();};
+  form.onreset=event=>{
+    event.preventDefault();
+    termBox.value=bureauBox.value=networkGroup.value=natureFilter="";
+    networkState.value=collectionBox.value==="checklist"?"passenger":"";
+    resetResults();
+  };
   for(const button of document.querySelectorAll("[data-nature]"))button.onclick=()=>{natureFilter=button.dataset.nature;resetResults();};
   for(const [id,step] of [["back-page",-1],["next-page",1]])q("#"+id).onclick=()=>{
     page+=step;render();history.replaceState(null,"",target(selected));q("#directory-index").scrollIntoView({block:"start"});

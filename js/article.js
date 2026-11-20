@@ -130,6 +130,10 @@ function management(r) {
     : "";
 }
 function infoSection(section) {
+  const reverse = section.direction === "reverse";
+  const start = reverse ? section.end : section.start;
+  const end = reverse ? section.start : section.end;
+  const name = reverse && section.name === section.start + "—" + section.end ? start + "—" + end : section.name;
   const mark = (section.historical ? "历史线位 · " : "") + statusName(section.statusCode);
   const range = [section.validFrom, section.validTo].some(Boolean)
     ? [section.validFrom || "起始日期待补充", section.validTo || "结束日期未载"].join(" 至 ")
@@ -141,13 +145,13 @@ function infoSection(section) {
     '<details class="section-row" id="section-' +
     esc(section.id) +
     '" open><summary>' +
-    esc(section.name) +
+    esc(name) +
     '<span class="section-meta">' +
     esc(mark) +
     "</span></summary><p>" +
-    esc(optionalText(section.start)) +
+    esc(optionalText(start)) +
     " — " +
-    esc(optionalText(section.end)) +
+    esc(optionalText(end)) +
     "</p>" +
     facts([
       ["资料里程", distanceLabel(section.lengthKm)],
@@ -272,17 +276,22 @@ function stationContent(r) {
     '<div class="chips">' + [r.startJunctionId, r.endJunctionId].map(id => '<a class="context-link" href="' + junctionLink(id) + '">' + esc(r.junctions?.find(j => j.id === id)?.name || id) + '</a>').join('') + '</div>';
   if (!r.stationRefs.length) return note("已核实车站待补充。");
   const roster = r.extensions?.stationRoster || {};
-  const rows = r.stationRefs.map((s) => {
+  const stationRow = (s) => {
     const details = [roster.notes?.[s.name], r.stations.find((item) => item.name === s.name)?.text].filter(Boolean);
     return '<li><a href="' + stationLink(s.id) + '">' + esc(s.name) + '</a>' +
       [...new Set(details)].map((detail) => '<p>' + esc(detail) + '</p>').join('') + '</li>';
-  }).join('');
+  };
+  const stationList = stops => '<ol class="station-sequence">' + stops.map(stationRow).join('') + '</ol>';
+  const lookup = new Map(r.stationRefs.map(s => [s.id,s]));
+  const sequence = roster.groups?.length
+    ? roster.groups.map(group => '<h3>' + esc(group.name) + '</h3>' + stationList(group.stationIds.map(id => lookup.get(id)))).join('')
+    : stationList(r.stationRefs);
   const connections = (roster.connections || []).map((s) =>
     '<p>' + (s.stationId ? '<a href="' + stationLink(s.stationId) + '">' + esc(s.name) + '</a>' : esc(s.name)) +
     ' · ' + esc(s.note) + '</p>').join('');
   return '<p class="station-count">已收录 ' + r.stationRefs.length + ' 座车站</p>' +
     (roster.scope ? note(roster.scope) : '') +
-    '<ol class="station-sequence">' + rows + '</ol>' +
+    sequence +
     (connections ? '<h3>联络线接入站</h3>' + connections : '') +
     (roster.auxiliaryStations?.length ? '<h3>另列技术节点</h3><p>' + esc(roster.auxiliaryStations.join('、')) + '</p>' : '') +
     (roster.sources?.length ? '<details class="section-row"><summary>查看站表依据</summary>' + sources(roster.sources) + '</details>' : '');

@@ -34,6 +34,7 @@ let routes = [],
   matches = [],
   page = 0,
   active = null,
+  activeScope = null,
   selected = false,
   registry;
 const routesById = new Map(),
@@ -163,7 +164,23 @@ function renderButtons() {
   const count = filterKeys.filter((k) => filters[k] && filters[k] !== "all").length;
   q("#filter-summary").textContent = count ? "筛选条件 · " + count : "更多筛选";
 }
+function scopeForSearch(route, term = q("#search").value.trim()) {
+  if (!term || term === route.name) return null;
+  const shortName = name => name.replace(/(?:高速铁路|客运专线|高铁|铁路)$/, "");
+  return (route.namedScopes || []).find(scope =>
+    scope.name === term || (term.length >= 2 && shortName(scope.name) === shortName(term))
+  ) || null;
+}
+function scopeEndpoints(refs) {
+  const first = refs[0], last = refs.at(-1);
+  return endpointText({
+    start: first.direction === "reverse" ? first.end : first.start,
+    end: last.direction === "reverse" ? last.start : last.end
+  });
+}
 function row(r) {
+  const scope = scopeForSearch(r);
+  const refs = scope ? r.sections.filter(s => scope.sectionIds.includes(s.id)) : [];
   return (
     '<button class="row' +
     (r.id === active ? " chosen" : "") +
@@ -174,9 +191,9 @@ function row(r) {
     '"><span class="row-icon">' +
     icon("train", 18) +
     '</span><span class="row-copy"><strong>' +
-    esc(r.name) +
+    esc(scope ? scope.name : r.name) +
     "</strong><small>" +
-    esc(endpointText(r)) +
+    esc(scope ? scopeEndpoints(refs) : endpointText(r)) +
     (r.historical ? " · 历史" : "") +
     "</small></span>" +
     icon("chevron", 13) +
@@ -217,7 +234,7 @@ function applyFilters() {
       (!filters.province || r.provinces.includes(filters.province)) &&
       (!filters.city || r.cities.includes(filters.city)) &&
       (!filters.bureau || r.bureaus.includes(filters.bureau)) &&
-      (!term || searchText.get(r.id).includes(term))
+      (!term || searchText.get(r.id).includes(term) || scopeForSearch(r, term))
   );
   if (active && !matches.some((r) => r.id === active)) closeCard(false);
   page = 0;
@@ -244,6 +261,7 @@ function updateLayers() {
       .join("");
 }
 function sectionInScope(r, s) {
+  if (r.id === active && activeScope && !activeScope.sectionIds.includes(s.id)) return false;
   return !filters.status || r.statusCode === filters.status || s.statusCode === filters.status;
 }
 function desiredSections() {
@@ -323,7 +341,7 @@ function linePicker(ids, latlng, title) {
     b.onclick = () => {
       map.closePopup();
       if (!matches.includes(r)) resetFilters();
-      showCard(id);
+      showCard(id, true, id === active ? activeScope : scopeForSearch(r));
     };
     div.append(b);
   }
@@ -348,18 +366,18 @@ function drawSection(id, owners, feature, detail) {
     layer.on("click", (e) => {
       const current = visible.get(id).owners;
       current.length === 1
-        ? showCard(current[0])
+        ? showCard(current[0], true, active === current[0] ? activeScope : scopeForSearch(routesById.get(current[0])))
         : linePicker(current, e.latlng, "共用区段 · " + s.name);
     });
   }
-  const signature = [...owners, active, selected].join("/");
+  const signature = [...owners, active, selected, activeScope?.name].join("/");
   if (slot.signature === signature) return;
   slot.signature = signature;
   slot.owners = owners;
   slot.layer.setStyle(style);
   slot.layer
     .unbindTooltip()
-    .bindTooltip(esc(r.name) + (s.historical ? " · 历史走向" : ""), { sticky: true });
+    .bindTooltip(esc(chosen && activeScope ? activeScope.name : r.name) + (s.historical ? " · 历史走向" : ""), { sticky: true });
   if (chosen) slot.layer.bringToFront();
 }
 function reportError(message) {
@@ -554,21 +572,24 @@ function endPins() {
     }).addTo(ends);
   }
 }
-function locationLine(id) {
+function locationLine(id, scope = null) {
   const url = new URL(location.href);
   url.searchParams.delete("junction");
+  if (scope) url.searchParams.set("scope", scope.name);
+  else url.searchParams.delete("scope");
   if (id) url.searchParams.set("line", id);
   else url.searchParams.delete("line");
   history.replaceState(null, "", url);
 }
-function showCard(id, focus = true) {
+function showCard(id, focus = true, scope = null) {
   const r = routesById.get(id);
   if (!r) return;
   active = id;
+  activeScope = scope;
   selected = focus;
   const card = q("#card"),
-    link = "line.html?id=" + encodeURIComponent(id),
-    photo = r.cover;
+    link = "line.html?id=" + encodeURIComponent(id) + (scope ? "#section-" + encodeURIComponent(scope.sectionIds[0]) : ""),
+    photo = scope ? null : r.cover;
   if (focus) {
     focusedNode = null;
     if (mobile.matches) setSidebar(false);
@@ -579,13 +600,18 @@ function showCard(id, focus = true) {
       for (const s of mapped) enabledStates.add(stateFor(s));
       updateLayers();
     }
-    locationLine(id);
+    locationLine(id, scope);
   }
   const eligible = r.sections.filter((s) => sectionInScope(r, s));
   const missing = !eligible.some((s) => s.bbox);
   const subjects = eligible.filter((s) => s.bbox && enabledStates.has(stateFor(s)));
   const subject = subjects.length === 1 && subjects[0].name !== r.name ? subjects[0].name : null;
-  const info = [r.status, trafficLabel(r), subject].filter(nonempty).join(" · ");
+  const scopeRefs = scope ? r.sections.filter(s => scope.sectionIds.includes(s.id)) : [];
+  const title = scope ? scope.name : r.name;
+  const description = scope ? scope.scope : r.scope;
+  const info = scope
+    ? [r.name, ...new Set(scopeRefs.map(s => statusName(s.statusCode)))].join(" · ")
+    : [r.status, trafficLabel(r), subject].filter(nonempty).join(" · ");
   card.classList.toggle("has-no-photo", !photo);
   card.innerHTML =
     '<div class="card-photo"><a href="' +
@@ -604,40 +630,54 @@ function showCard(id, focus = true) {
     '</button></div><div class="card-body"><div class="card-title"><h2><a href="' +
     link +
     '">' +
-    esc(r.name) +
+    esc(title) +
     "</a></h2>" +
     flag(r.type) +
     '</div><p class="card-path">' +
     icon("pin", 13) +
-    esc(endpointText(r)) +
+    esc(scope ? scopeEndpoints(scopeRefs) : endpointText(r)) +
     '</p><p class="status-note">' +
     esc(info) +
     "</p>" +
     (missing ? '<p class="map-warning">走向待补充</p>' : "") +
-    (r.scope && (focus || r.statusCode === "partial" || r.historical)
-      ? '<details class="card-scope"><summary>里程与开通范围</summary><p>' +
-        esc(r.scope) +
-        "</p></details>"
+    (description && (focus || r.statusCode === "partial" || r.historical)
+      ? '<details class="card-scope"><summary>' + (scope ? "查看区段范围与资料" : "里程与开通范围") + '</summary><p>' +
+        esc(description) + "</p>" + (scope ? '<div class="scope-measurements"></div>' : "") + "</details>"
       : "") +
-    '<div class="card-stats"><div><small>资料里程</small><b>' +
+    (scope ? "" : '<div class="card-stats"><div><small>资料里程</small><b>' +
     (r.lengthKm == null ? "待补充" : fmt(r.lengthKm) + "<small>km</small>") +
     "</b></div><div><small>开通节点</small><b>" +
     esc(r.opened || "待补充") +
-    '</b></div></div><a class="primary" href="' +
+    "</b></div></div>") + '<a class="primary" href="' +
     link +
     '">' +
     icon("book", 15) +
-    "查看线路详情</a></div>";
+    (scope ? "查看区段资料" : "查看线路详情") + "</a></div>";
   card.hidden = false;
   card.classList.toggle("featured", !focus);
   q(".card-close").onclick = () => closeCard();
   card.onclick = (e) => {
     if (!e.target.closest("a,button,details")) location.assign(link);
   };
-  const scope = card.querySelector(".card-scope");
-  if (scope)
-    scope.ontoggle = () => {
+  const infoPanel = card.querySelector(".card-scope");
+  if (infoPanel)
+    infoPanel.ontoggle = async () => {
       if (selected && active === id) focusRoute(r);
+      const slot = infoPanel.querySelector(".scope-measurements");
+      if (!slot || !infoPanel.open || slot.dataset.loaded) return;
+      slot.dataset.loaded = "1";
+      try {
+        const record = await atlasRead("lines/" + encodeURIComponent(id) + ".json");
+        for (const section of record.sections.filter(s => scope.sectionIds.includes(s.id))) {
+          const item = document.createElement("p");
+          item.textContent = [section.name, section.lengthKm == null ? "里程待补充" : fmt(section.lengthKm) + " km",
+            section.validFrom ? section.validFrom + " 起" + statusName(section.statusCode) : "状态起算日期待补充"].join(" · ");
+          slot.append(item);
+        }
+        if (infoPanel.isConnected && infoPanel.open && selected && active === id) focusRoute(r);
+      } catch {
+        slot.textContent = "区段资料暂未载入，可打开区段档案查看。";
+      }
     };
   if (focus) {
     const i = matches.findIndex((m) => m.id === id);
@@ -650,6 +690,7 @@ function showCard(id, focus = true) {
 function closeCard(repaint = true) {
   focusedNode = null;
   active = null;
+  activeScope = null;
   selected = false;
   q("#card").hidden = true;
   ends.clearLayers();
@@ -714,7 +755,7 @@ function startEvents() {
       return;
     }
     const id = e.target.closest("[data-id]")?.dataset.id;
-    if (id) showCard(id);
+    if (id) showCard(id, true, scopeForSearch(routesById.get(id)));
   };
   q("#previous").onclick = () => {
     page--;
@@ -726,7 +767,9 @@ function startEvents() {
   };
   q("#search").oninput = applyFilters;
   q("#search").onkeydown = (e) => {
-    if (e.key === "Enter" && matches.length) showCard(matches[0].id);
+    if (e.key !== "Enter" || !matches.length) return;
+    const route = matches.find(r => scopeForSearch(r)) || matches[0];
+    showCard(route.id, true, scopeForSearch(route));
   };
   q("#plus").onclick = () => map.zoomIn();
   q("#minus").onclick = () => map.zoomOut();
@@ -790,6 +833,8 @@ async function start() {
   for (const r of routes) {
     routesById.set(r.id, r);
     r.sections.sort((a, b) => a.order - b.order);
+    const ids = new Set(r.sections.map(s => s.id));
+    r.namedScopes = (r.namedScopes || []).filter(s => nonempty(s.name) && s.sectionIds?.length && s.sectionIds.every(id => ids.has(id)));
     searchText.set(
       r.id,
       [
@@ -797,7 +842,7 @@ async function start() {
         r.name.replace("高速铁路", "高铁"),
         r.start,
         r.end,
-        ...r.aliases,
+        ...r.aliases, ...(r.scopeNames || []), ...r.namedScopes.map(s => s.name),
         trafficLabel(r),
         ...r.cities,
         ...r.stationNames,
@@ -835,7 +880,7 @@ async function start() {
     }
     if (q("#passenger-only").checked && !trunkIds.has(initial)) setTrunkMode(false);
     applyFilters();
-    showCard(initial);
+    showCard(initial, true, target.namedScopes.find(scope => scope.name === initialQuery.get("scope")) || null);
   } else if (!initialQuery.has("junction") && !mobile.matches && matches.some(r => r.id === "r01")) showCard("r01", false);
   initJunctions().catch(() => reportError("枢纽节点暂时无法读取，请刷新重试。"));
   const overview = await atlasRead("overview.geojson");

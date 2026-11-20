@@ -4,6 +4,27 @@ const networkState = document.querySelector("#network-state");
 let networkGroups = new Map(), networkRows = [], networkAtlas = new Map(), networkFacts = new Map();
 const kindLabels = {line:"铁路线路",section:"区段",corridor:"组合通道",unknown:"名称待核实"};
 
+let directoryData, currentNetworkView;
+
+function setNetworkScope(view) {
+  if (!directoryData || currentNetworkView===view || !["networks","checklist"].includes(view)) return;
+  currentNetworkView = view;
+  const check = view==="checklist";
+  const rows = check ? directoryData.checklist.items : directoryData.items;
+  q("#network-state-field span").textContent = check ? "核对范围" : "铁路运营状态";
+  networkState.replaceChildren();
+  if (check) networkState.add(new Option("已开通客运区段", "passenger"));
+  if (check) networkState.add(new Option("本批新增档案", "added"));
+  networkState.add(new Option(check ? "全部核对项目" : "全部状态", check ? "any" : ""));
+  const counts = new Map();
+  for (const row of rows) counts.set(row.status,(counts.get(row.status)||0)+1);
+  for (const [code,count] of counts) networkState.add(new Option(statusName(code)+" · "+count,code));
+  const summary = directoryData.checklist.stats;
+  q("#network-summary").textContent = check
+    ? directoryData.checklist.asOf+" 核对 · 清单列出 "+summary.entries+" 项，其中 "+summary.openedEntries+" 项有已开通客运区段。此次补入 "+summary.newLines+" 份此前缺少的档案。跨通道重复列示。"
+    : directoryData.checkedAt+" 核对 · "+directoryData.stats.groups+" 个清单分组，共 "+directoryData.stats.entries+" 项。";
+}
+
 function networkDirectory(data, build, atlasRows, facts) {
   networkAtlas=atlasRows;
   networkFacts=new Map(facts.map(r=>[r.id,r]));
@@ -11,16 +32,19 @@ function networkDirectory(data, build, atlasRows, facts) {
     q("#network-summary").textContent = "本批资料暂时未能读取。请刷新重试。";
     return [];
   }
+  directoryData = data;
   networkRows = data.items;
   networkGroups = new Map(data.groups.map(group=>[group.id,group]));
   for (const group of data.groups) networkGroup.add(new Option(group.name,group.id));
+  const checklistEntries = data.checklist.items.map(row => build(row, "checklist",
+    [row.raw,row.displayName,row.name,row.scope,networkGroups.get(row.groupId).name,...(atlasRows.get(row.lineId)?.aliases || [])]));
   for (const [code,count] of Object.entries(data.stats.byStatus))
     networkState.add(new Option(statusName(code)+" · "+count,code));
   q("#network-summary").textContent=data.checkedAt+" 核对 · "+data.stats.groups+" 个清单分组，共 "+
     data.stats.entries+" 项。跨通道出现的线路按所在分组分别列出。";
   return networkRows.map(row=>build(row,"networks",[row.raw,row.name,row.scope,networkGroups.get(row.groupId).name,
     ...(row.members||[]).flatMap(member=>[member.name,member.scope,atlasRows.get(member.lineId)?.name]),
-    ...(row.aliases||[])]));
+    ...(row.aliases||[])])).concat(checklistEntries);
 }
 
 function networkSources(refs) {
@@ -32,8 +56,15 @@ function showNetworkDetail(row,focus) {
   const group=networkGroups.get(row.groupId);
   const links=[];
   if(row.lineId)links.push(siteLink(recordLink(row.lineId),"相关线路百科"));
-  if(row.lineId&&["operating","partial"].includes(row.status))
-    links.push(siteLink("./?line="+encodeURIComponent(row.lineId),"查看百科已收录线位"));
+  if(row.lineId&&["operating","partial"].includes(row.status)) {
+    const mapParams = new URLSearchParams({line: row.lineId});
+    const ids = (row.sectionLinks || []).map(section => section.id);
+    const scope = ids.length && (networkAtlas.get(row.lineId)?.namedScopes || []).find(candidate =>
+      candidate.sectionIds.length === ids.length && ids.every(id => candidate.sectionIds.includes(id))
+    );
+    if (scope) mapParams.set("scope", scope.name);
+    links.push(siteLink("./?" + mapParams, scope ? "查看本项区段地图" : "查看百科已收录线位"));
+  }
   if(row.parameterId){
     const query=new URLSearchParams({id:row.parameterId});
     if(row.sectionOnly){query.set("section",row.parameterSectionName);query.set("scope",row.parameterSectionScope||"");}
@@ -41,9 +72,9 @@ function showNetworkDetail(row,focus) {
   }
   if(row.publicId)links.push(siteLink("national.html?view=facts&id="+encodeURIComponent(row.publicId),"公开线路资料"));
   const measurements=(row.facts||[]).map(f=>[f.label,f.value]);
-  const sideRows=networkRows.filter(r=>r.id!==row.id&&(
+  const sideRows=(row.id.startsWith("ck-")?directoryData.checklist.items:networkRows).filter(r=>r.id!==row.id&&(
     (row.lineId&&row.lineId===r.lineId)||r.name===row.name));
-  const similar=sideRows.map(r=>siteLink("national.html?view=networks&id="+encodeURIComponent(r.id),
+  const similar=sideRows.map(r=>siteLink("national.html?view="+(r.id.startsWith("ck-")?"checklist&state=any":"networks")+"&id="+encodeURIComponent(r.id),
     networkGroups.get(r.groupId).name+" · "+r.raw));
   const atlasRow=networkAtlas.get(row.lineId);
   const fact=networkFacts.get(row.publicId);
@@ -56,7 +87,12 @@ function showNetworkDetail(row,focus) {
     (member.opened?'<p>开通节点 · '+esc(member.opened)+'</p>':"")+
     (member.sources?.length?networkSources(member.sources):"")+'</div>'
   ).join("");
-  const title=row.raw;
+  for(const section of (row.sectionLinks||[])) links.push(siteLink(recordLink(row.lineId)+"#section-"+encodeURIComponent(section.id),section.name));
+  for(const param of (row.parameterSections||[])) {
+    const query=new URLSearchParams({id:param.document,section:param.section,scope:param.scope});
+    links.push(siteLink("line-parameters.html?"+query,param.section));
+  }
+  const title=row.displayName || row.raw;
   detailBox.dataset.selected=row.id;
   document.title=title+" · 客运线路与八纵八横 · 中国铁路图鉴";
   detailBox.innerHTML='<p class="detail-kicker">清单分组 · '+esc(group.name)+'</p><h2>'+esc(title)+'</h2>'+

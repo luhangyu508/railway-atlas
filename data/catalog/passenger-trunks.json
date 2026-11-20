@@ -467,6 +467,286 @@
         "publishedAt": "2023-04-15",
         "checkedAt": "2026-11-21"
       }
+    },
+    {
+      "id": "rail-baoxi",
+      "passengerSource": {
+        "title": "包西铁路扩能通道建成通车日期及工程起讫",
+        "url": "https://politics.people.com.cn/n/2013/0713/c70731-22188185.html"
+      }
+    },
+    {
+      "id": "hs-yuxia",
+      "passengerSource": {
+        "title": "渝厦高铁重庆东至黔江段开通运营",
+        "url": "https://www.nra.gov.cn/xwzx/xwxx/xwlb/202506/t20250627_349122.shtml"
+      }
+    },
+    {
+      "id": "hs-jiangzhan",
+      "passengerSource": {
+        "title": "关于深湛线江湛段开通运营的公告",
+        "url": "https://www.12306.cn/mormhweb/zxdtzz/201806/t20180629_421954.html"
+      }
+    },
+    {
+      "id": "hs-hebeng",
+      "passengerSource": {
+        "title": "京福高铁合蚌段正式开通运营",
+        "url": "https://www.crecg.com/web/xwzx61/zfgsdt39/2025021110085129986/index.html"
+      }
+    },
+    {
+      "id": "hs-shanghehang",
+      "passengerSource": {
+        "title": "京港高铁商丘至合肥段与郑阜高铁开通运营",
+        "url": "https://app.www.gov.cn/govdata/gov/201912/02/451538/article.html"
+      }
+    },
+    {
+      "id": "hs-rilan",
+      "passengerSource": {
+        "title": "鲁南（日兰）高铁日照至临沂至曲阜段正式开通运营",
+        "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/201912/t20191230_1217294.html"
+      }
+    },
+    {
+      "id": "hs-weiyan",
+      "passengerSource": {
+        "title": "潍烟高铁首发及沿线九站",
+        "url": "https://www.yantai.gov.cn/art/2024/10/21/art_11748_3224599.html"
+      }
+    },
+    {
+      "id": "hs-yantong",
+      "passengerSource": {
+        "title": "〖盐通高铁开通运营〗-国家发展和改革委员会",
+        "url": "https://www.ndrc.gov.cn/fggz/zcssfz/zdgc/202103/t20210307_1269095.html"
+      }
+    },
+    {
+      "id": "hs-hangyong",
+      "passengerSource": {
+        "title": "中国动车组资料使用约定及署名",
+        "url": "https://www.china-emu.cn/About/Agreement/"
+      }
+    },
+    {
+      "id": "rail-yongtaiwen",
+      "passengerSource": {
+        "title": "中国动车组资料使用约定及署名",
+        "url": "https://www.china-emu.cn/About/Agreement/"
+      }
+    },
+    {
+      "id": "rail-wenfu",
+      "passengerSource": {
+        "title": "福建省已开通运营项目基本情况",
+        "url": "https://fgw.fujian.gov.cn/ztzl/tljsbgs/fjstlfzqk/fjtlfzgk/202401/t20240118_6382963.htm"
+      }
+    },
+    {
+      "id": "hs-guangshan",
+      "passengerSource": {
+        "title": "广汕高铁通车：正线里程、八座车站与枢纽接入",
+        "url": "https://www.gdhmo.gov.cn/xwzx/hzjl/shfz/content/post_75579.html"
+      }
+    },
+    {
+      "id": "hs-changgan-nc",
+      "passengerSource": {
+        "title": "昌赣高铁明日通车",
+        "url": "https://www.nc.gov.cn/ncszf/hygq/201912/fc8339566dbb4b20b675b5ef643b0100.shtml"
+      }
+    },
+    {
+      "id": "hs-ganshen",
+      "passengerSource": {
+        "title": "中国动车组资料使用约定及署名",
+        "url": "https://www.china-emu.cn/About/Agreement/"
+      }
+    },
+    {
+      "id": "hs-hada",
+      "passengerSource": {
+        "title": "中国动车组资料使用约定及署名",
+        "url": "https://www.china-emu.cn/About/Agreement/"
+      }
+    },
+    {
+      "id": "hs-jidayuan",
+      "passengerSource": {
+        "title": "集大原高铁进入整体验收阶段",
+        "url": "https://www.dt.gov.cn/dt12345/rxdt1/202412/21d74c4400654713a6477776d36bf2e0.shtml"
+      }
+    },
+    {
+      "id": "hs-guinan",
+      "passengerSource": {
+        "title": "中国动车组资料使用约定及署名",
+        "url": "https://www.china-emu.cn/About/Agreement/"
+      }
+    },
+    {
+      "id": "hs-hainan",
+      "passengerSource": {
+        "title": "中国动车组资料使用约定及署名",
+        "url": "https://www.china-emu.cn/About/Agreement/"
+      }
+    },
+    {
+      "id": "rail-chuanqing",
+      "passengerSource": {
+        "title": "川青铁路镇江关至黄胜关段开通运营_国家铁路局",
+        "url": "https://source.nra.gov.cn/xwzx/xwxx/xwlb/202408/t20240830_346700.shtml"
+      }
+    },
+    {
+      "id": "hs-hangtai",
+      "passengerSource": {
+        "title": "杭台高铁温玉段已开通运营",
+        "url": "https://zjic.zj.gov.cn/ywdh/shjs/202608/t20260812_24184522.shtml"
+      }
+    },
+    {
+      "id": "hs-hamu",
+      "passengerSource": {
+        "title": "哈牡高铁今日开通运营，哈尔滨火车站全站投用",
+        "url": "https://hlj.cri.cn/20181225/6d5f9808-ff49-1070-4904-1c07850286b8.html"
+      }
+    },
+    {
+      "id": "hs-mujia",
+      "passengerSource": {
+        "title": "沈佳高铁牡丹江至佳木斯段开通运营",
+        "url": "https://news.china.com.cn/txt/2021-12/06/content_77913165.htm"
+      }
+    },
+    {
+      "id": "hs-longlong",
+      "passengerSource": {
+        "title": "时速350公里！龙龙高铁梅龙段开通运营",
+        "url": "https://gzw.fujian.gov.cn/zwgk/gzdt/gzjg/qydq/202410/t20241024_6553374.htm"
+      }
+    },
+    {
+      "id": "hs-zhangjihuai",
+      "passengerSource": {
+        "title": "张吉怀高铁正式开通运营",
+        "url": "https://www.hunan.gov.cn/hnszf/szf/zfld/mwm/mwmhd/202112/t20211206_21249146.html"
+      }
+    },
+    {
+      "id": "hs-nankun",
+      "passengerSource": {
+        "title": "南宁至昆明客运专线南宁至百色段开通运营",
+        "url": "https://www.xinhuanet.com/politics/2015-12/10/c_128518458.htm"
+      }
+    },
+    {
+      "id": "rail-shenda",
+      "passengerSource": {
+        "title": "沈山铁路、沈大铁路启动集中修作业",
+        "url": "https://www.ln.gov.cn/web/ywdt/jrln/wzxx2018/2026032708450268847/index.shtml"
+      }
+    },
+    {
+      "id": "rail-changtu",
+      "passengerSource": {
+        "title": "图们站旅客乘降业务转移至图们北站",
+        "url": "https://news.cnjiwang.com/jlxwdt/sn/202007/3169615.html"
+      }
+    },
+    {
+      "id": "rail-pingqi",
+      "passengerSource": {
+        "title": "黑龙江地方志 · 平齐线与齐齐哈尔枢纽",
+        "url": "https://www.hljszw.org.cn/home/book/info/get_id/323392.html"
+      }
+    },
+    {
+      "id": "rail-yizhan",
+      "passengerSource": {
+        "title": "洛湛铁路岑溪至茂名段建成通车",
+        "url": "https://www.crecg.com/web/xwzx61/zfgsdt39/2025021110085897366/index.html"
+      }
+    },
+    {
+      "id": "rail-chuanqian",
+      "passengerSource": {
+        "title": "川黔铁路建设与三线工程通车历史",
+        "url": "https://www.crecg.com/web/qywh90/10196760/2025021110100132940/index.html"
+      }
+    },
+    {
+      "id": "rail-qiangui",
+      "passengerSource": {
+        "title": "黔桂铁路广西段增建二线工程环境影响报告书 · 既有线运营现状",
+        "url": "https://sthjt.gxzf.gov.cn/zfxxgk/zfxxgkgl/fdzdgknr/hjjccf/xzxk/hjyxslgk/P020250609600765388633.pdf"
+      }
+    },
+    {
+      "id": "rail-dacheng",
+      "passengerSource": {
+        "title": "影响达州十大事件 · 达成铁路建成通车",
+        "url": "https://www.sasu.edu.cn/info/1027/9919.htm"
+      }
+    },
+    {
+      "id": "rail-jier",
+      "passengerSource": {
+        "title": "中蒙苏铁路联运联合公报（国务院公报1956年第2号）",
+        "url": "https://zh.wikisource.org/zh-hans/Page%3AState_Council_Gazette_-_1956_-_Issue_02.pdf/3"
+      }
+    },
+    {
+      "id": "rail-jitong",
+      "passengerSource": {
+        "title": "集宁至通辽铁路全线电气化开通运营",
+        "url": "https://www.crecg.com/web/xwzx61/gsyw87/2025021110071839861/index.html"
+      }
+    },
+    {
+      "id": "rail-taizhongyin",
+      "passengerSource": {
+        "title": "中国中铁参建的太中银铁路正式开通",
+        "url": "https://www.crecg.com/web/xwzx61/zfgsdt39/2025021110085844199/index.html"
+      }
+    },
+    {
+      "id": "hs-liunan",
+      "passengerSource": {
+        "title": "广西多条铁路开通运营",
+        "url": "https://finance.cnr.cn/gundong/201312/t20131228_514516706.shtml"
+      }
+    },
+    {
+      "id": "hs-chengya",
+      "passengerSource": {
+        "title": "成雅铁路正式开通运营 · 成都至朝阳湖与朝阳湖至雅安",
+        "url": "https://www.crecg.com/web/xwzx61/zfgsdt39/2025021110082776354/index.html"
+      }
+    },
+    {
+      "id": "hs-kunchuda",
+      "passengerSource": {
+        "title": "昆楚大铁路7月1日开通，昆明至大理2小时内可达",
+        "url": "https://www.xinhuanet.com/politics/2018-06/29/c_1123052698.htm"
+      }
+    },
+    {
+      "id": "rail-xingquan",
+      "passengerSource": {
+        "title": "历经五年奋战，兴泉铁路全线通车运营",
+        "url": "https://fgw.quanzhou.gov.cn/zwgk/gzdt/202212/t20221230_2832951.htm"
+      }
+    },
+    {
+      "id": "r21",
+      "passengerSource": {
+        "title": "内蒙古年鉴 · 历史京包线里程",
+        "url": "https://www.nmgqq.com.cn/shuzishizhi/nianjian/neimengguniajian/2018juan/jiaotongyouzheng/2020-02-15/17994.html"
+      }
     }
   ]
 }
