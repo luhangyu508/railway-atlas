@@ -108,7 +108,7 @@ async function openCatalog() {
     if (states.value) query.set("state", states.value);
     if (history) query.set("history", "1");
     if (page > 1) query.set("page", page);
-    window.history.replaceState(null, "", location.pathname + (query.size ? "?" + query : ""));
+    window.history.replaceState(null, "", location.pathname + (query.size ? "?" + query : "") + location.hash);
   }
   form.oninput = () => {
     page = 1;
