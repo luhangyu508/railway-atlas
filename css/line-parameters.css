@@ -1,0 +1,51 @@
+.parameter-layout{display:grid;grid-template-columns:minmax(14rem,17.5rem) minmax(0,1fr);gap:1.3rem;align-items:start}
+.parameter-sidebar,#parameter-detail{border:1px solid var(--rule);background:#fff;border-radius:.8rem;padding:1.05rem}
+.parameter-sidebar label{font-weight:650;font-size:.92rem}
+#parameter-query{width:100%;font:inherit;font-size:.92rem;padding:.57rem .62rem;margin:.5rem 0 0;border:1px solid #bccdc2;border-radius:.4rem;background:#fff}
+#parameter-match,.parameter-subtitle,.parameter-credit{color:var(--muted);font-size:.85rem;line-height:1.6}
+#parameter-results{display:grid;align-items:stretch;justify-content:stretch;gap:2px;height:auto;padding:0}
+#parameter-results a{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.44rem .55rem;border-radius:.38rem;line-height:1.35;color:#254c3d;white-space:normal;overflow-wrap:anywhere}
+#parameter-results a[aria-current]:after{display:none}
+#parameter-results a:hover,#parameter-results a:focus-visible{background:#edf3ed}
+#parameter-results a[aria-current="true"]{background:#285442;color:#fff}
+#parameter-results small{font-weight:400;white-space:nowrap;font-size:.72rem}
+.parameter-paging{display:flex;align-items:center;justify-content:space-between;gap:.5rem;font-size:.8rem;margin-top:.8rem}
+.parameter-paging button{padding:.35rem .5rem;border-radius:.35rem;background:#edf2ee}
+.parameter-paging button:disabled{color:#7e8982}
+#parameter-detail{padding:clamp(1rem,2.6vw,2rem);min-width:0;overflow-wrap:anywhere;scroll-margin-top:10px}
+#parameter-detail h2{font-size:clamp(1.4rem,2.2vw,2rem);margin:.1rem 0 .4rem}
+#parameter-detail h3{font-size:1.1rem;margin:1.2rem 0 .4rem}
+#parameter-detail h4{margin:.85rem 0 .4rem;font-size:.95rem}
+#parameter-detail a,.parameter-credit a{color:#245b45;text-decoration:underline;text-underline-offset:2px}
+.parameter-source{font-size:.84rem;line-height:1.7;padding-bottom:.65rem;border-bottom:1px solid var(--rule)}
+.parameter-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,10rem),1fr));gap:1px;background:#e5ece5;border:1px solid #e5ece5;border-radius:.45rem;overflow:hidden;margin:.75rem 0}
+.parameter-metrics>div{background:#f8faf7;padding:.55rem .65rem}
+.parameter-metrics dt{font-size:.77rem;color:#4c6456;line-height:1.35}
+.parameter-metrics dd{margin:.25rem 0 0;font-weight:600;font-variant-numeric:tabular-nums}
+.parameter-events{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.45rem .8rem;font-size:.87rem}
+.parameter-events b{margin-right:.35em}
+.parameter-places{border-top:1px solid var(--rule);padding:.65rem 0}
+.parameter-places summary{cursor:pointer;font-weight:600}
+.parameter-places ol{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));padding-left:1.6rem;gap:.45rem 1.5rem;font-size:.9rem}
+.parameter-places small{display:block;color:#5d7062}
+.parameter-credit{margin-top:1.5rem}
+.parameter-atlas-links:not([hidden]){display:flex;align-items:center;flex-wrap:wrap;gap:.4rem 1.2rem}
+.parameter-atlas-links a{display:inline-flex;align-items:center;font-size:.9rem;font-weight:600}
+@media(max-width:740px){
+  .parameter-layout{grid-template-columns:minmax(0,1fr)}
+  .parameter-sidebar{min-width:0;padding:.75rem}
+  #parameter-results{max-height:12rem;overflow-y:auto}
+  .parameter-paging{margin-top:.4rem}
+  #parameter-results a,.parameter-paging button,.parameter-atlas-links a{min-height:44px}
+}
+#hub-detail { min-width:0; overflow-wrap:anywhere; background:#fff; border:1px solid var(--rule); border-radius:.65rem; padding:clamp(1rem,2.6vw,2rem) }
+#hub-detail h2 { margin-top:0 }
+#hub-detail .context-link { margin-right:.65rem }
+#hub-list { display:block; height:auto; padding:0; max-height:28rem; overflow:auto }
+#hub-q,#hub-kind { display:block;width:100%;font:inherit;border:1px solid #bccdc2;border-radius:.4rem;background:white;margin:.35rem 0 .85rem;padding:.5rem }
+#hub-list a {white-space:normal}
+#hub-list p { display:flex; align-items:center; justify-content:space-between; gap:.4rem; margin:0; border-bottom:1px solid var(--rule) }
+#hub-list a { display:block; flex:1; padding:.70rem 0; font-weight:600 }
+@media(max-width:740px){#hub-list{max-height:12rem}}
+
+@media(max-width:740px){.selected-hub{display:flex;flex-direction:column;align-items:stretch}.selected-hub #hub-detail{order:-1}}

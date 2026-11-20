@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>线路图鉴 · 中国铁路图鉴</title>
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/encyclopedia.css" />
+  </head>
+  <body>
+    <header></header>
+    <main class="directory">
+      <div class="breadcrumbs"><a href="./">地图探索</a><span>/</span>线路图鉴</div>
+      <h1>线路图鉴</h1>
+      <p class="directory-intro" id="catalog-summary" aria-live="polite">正在读取线路目录…</p>
+      <form id="catalog-options" class="catalog-options">
+        <label class="search-box"
+          ><span id="search-icon"></span
+          ><input
+            id="catalog-search"
+            type="search"
+            placeholder="搜索线路、别名、城市或车站"
+            aria-label="搜索线路、别名、城市或车站"
+        /></label>
+        <label
+          >线路性质
+          <select id="nature"></select
+        ></label>
+        <label
+          >运营状态
+          <select id="state"></select
+        ></label>
+        <label><input type="checkbox" id="history-only" /> 历史线路</label>
+        <button class="text-action" type="reset">清除筛选</button>
+      </form>
+      <p class="catalog-more">
+        <a href="national.html?view=networks">客运线路与八纵八横</a> · <a id="catalog-national" href="national.html">查全国线路和局集团区段</a> ·
+        <a id="catalog-track" href="tracks.html">按名称查开放轨道</a> ·
+        <a id="catalog-reference" href="line-parameters.html">查全国线路与联络线参数</a>
+      </p>
+      <div id="catalog" class="directory-grid"></div>
+      <div id="catalog-pages" class="pager" hidden>
+        <button id="prev">上一页</button><span id="page-indicator"></span
+        ><button id="next">下一页</button>
+      </div>
+    </main>
+    <script src="js/ui.js"></script>
+    <script src="js/catalog.js"></script>
+  </body>
+</html>

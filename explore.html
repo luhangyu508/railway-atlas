@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#173e37" />
+    <meta
+      name="description"
+      content="查询有出处的历史车次、车型与配属资料，沿车站和线路探索中国铁路。"
+    />
+    <title>铁路探索 · 中国铁路图鉴</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/explore.css" />
+  </head>
+  <body>
+    <header></header>
+    <main class="explorer">
+      <div class="explore-crumb"><a href="./">地图探索</a><span>/</span>关联查询</div>
+      <div class="explore-shell">
+        <aside class="explore-rail">
+          <h1>铁路探索</h1>
+          <div id="mode-nav" aria-label="选择查询功能"></div>
+        </aside>
+        <div class="explore-workspace">
+          <section id="inquiry" aria-label="查询条件"></section>
+          <div id="parameter-workspace"></div>
+          <div id="explore-results" aria-live="polite"><p>正在读取资料…</p></div>
+        </div>
+      </div>
+    </main>
+    <script src="js/ui.js"></script>
+    <script src="js/model-library.js"></script>
+    <script src="js/fleet-library.js"></script>
+    <script src="js/train-timetable.js"></script>
+    <script src="js/explore.js"></script>
+  </body>
+</html>

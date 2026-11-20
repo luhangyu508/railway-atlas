@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#173e37" />
+    <title>地图探索 · 中国铁路图鉴</title>
+    <meta
+      name="description"
+      content="按线路、区段与车站探索中国铁路网络，查看运营和历史线位、沿线城市与铁路资料。"
+    />
+    <link rel="stylesheet" href="assets/leaflet.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/maps-v2.css" />
+  </head>
+  <body class="map-page">
+    <header></header>
+    <main class="map-shell">
+      <div id="map" aria-label="中国铁路交互地图"></div>
+      <aside class="sidebar glass" aria-label="线路探索">
+        <div class="panel-tools">
+          <div class="panel-heading">
+            <h1>线路探索</h1>
+            <button
+              class="icon-button"
+              id="collapse"
+              aria-label="收起线路面板"
+              title="收起线路面板"
+            ></button>
+          </div>
+          <label class="search-box"
+            ><span data-icon="search"></span
+            ><input
+              id="search"
+              type="search"
+              placeholder="搜索线路、城市或车站"
+              autocomplete="off"
+              aria-label="搜索线路、城市或车站"
+            /><kbd>/</kbd></label
+          >
+          <div class="small-title">
+            <span data-icon="layers"></span>线路类型
+            <button type="button" id="open-filters" aria-haspopup="dialog">
+              <span data-icon="sliders"></span><span id="filter-summary">更多筛选</span>
+            </button>
+          </div>
+          <div id="filters"></div>
+          <div class="trunk-map-controls"><label><input type="checkbox" id="passenger-only"> 主要客运干线</label><a href="national.html?view=trunks">浏览干线目录</a><a href="hubs.html">枢纽与线路所</a></div>
+        </div>
+        <div class="list-head">
+          <strong>地图线路</strong
+          ><a id="map-parameters" class="inline" href="line-parameters.html">查全国线路参数</a
+          ><span id="result-count"></span>
+        </div>
+        <div class="route-list" id="routes-scroll"><div id="junction-hits" hidden></div><div id="route-list" aria-live="polite"></div><div id="map-nation-results" aria-live="polite" hidden></div></div>
+        <div class="panel-foot" id="list-footer">
+          <button id="previous" aria-label="上一页" disabled>上一页</button><span id="page-status"></span
+          ><button id="next" aria-label="下一页" disabled>下一页</button>
+        </div>
+      </aside>
+      <button id="expand" class="glass" hidden><span data-icon="sliders"></span>线路探索</button>
+      <section class="map-title glass">
+        <span class="map-title-icon" data-icon="map"></span
+        ><span><strong>全国铁路网络</strong><small>CHINA RAIL NETWORK</small></span>
+      </section>
+      <div class="map-controls">
+        <div class="zoom-box glass">
+          <button id="plus" title="放大" aria-label="放大" data-icon="plus"></button
+          ><button id="minus" title="缩小" aria-label="缩小" data-icon="minus"></button>
+        </div>
+        <button
+          class="glass"
+          id="reset"
+          title="恢复全国视图"
+          aria-label="恢复全国视图"
+          data-icon="focus"
+        ></button
+        ><button
+          class="glass"
+          id="layer-button"
+          title="地图图层"
+          aria-label="地图图层"
+          aria-expanded="false"
+          data-icon="layers"
+        ></button>
+      </div>
+      <div id="layers-pop" class="glass" hidden>
+        <strong>地图图层</strong
+        ><label><input type="checkbox" id="places-on" checked /> 城市与车站</label
+        ><label><input type="checkbox" id="rail-on" checked /> 铁路线路</label>
+        <label><input type="checkbox" id="junction-on" checked> 线路所</label>
+        <a class="context-link track-index-link" href="hubs.html">枢纽、联络线与线路所</a>
+        <a class="context-link track-index-link" href="national.html?view=networks">客运线路与八纵八横</a>
+        <a class="context-link track-index-link" href="national.html">全国目录与局集团区段</a>
+        <a class="context-link track-index-link" href="tracks.html">检索更多开放铁路轨道</a>
+        <fieldset id="state-layers"><legend>区段状态</legend></fieldset>
+      </div>
+      <dialog id="filter-dialog" aria-labelledby="filter-title">
+        <form method="dialog" id="filter-form">
+          <div class="panel-heading">
+            <h2 id="filter-title">筛选线路</h2>
+            <button
+              class="icon-button"
+              type="button"
+              id="close-filters"
+              aria-label="关闭筛选"
+              data-icon="close"
+            ></button>
+          </div>
+          <p class="subtle-note">本站高速铁路分类包含经核实的时速 200 公里级及以上客货共线铁路。</p>
+          <div class="filter-fields">
+            <label>线路性质<select id="filter-type"></select></label
+            ><label>运营状态<select id="filter-status"></select></label>
+            <label>地区<select id="filter-region"></select></label
+            ><label>省区市<select id="filter-province"></select></label>
+            <label>途经城市<select id="filter-city"></select></label
+            ><label>铁路局集团<select id="filter-bureau"></select></label>
+          </div>
+          <div class="filter-actions">
+            <button type="button" id="clear-filters">清除筛选</button
+            ><button type="submit" class="primary">应用筛选</button>
+          </div>
+        </form>
+      </dialog>
+      <div id="card" class="map-card glass" hidden></div>
+      <div id="map-legend" class="map-legend glass">
+        <b>图例</b><span><i class="line-symbol red"></i>高速铁路</span
+        ><span><i class="line-symbol blue"></i>普速铁路</span
+        ><span><i class="hub-symbol"></i>铁路枢纽</span>
+      </div>
+      <p id="density-note" role="status" hidden></p>
+      <div id="errors" role="alert" hidden></div>
+    </main>
+    <footer class="status">
+      <span><i></i>铁路知识地图</span>
+      <a class="open-tracks-entry" href="tracks.html">开放轨道检索</a>
+      <span>WGS 84 <em>｜</em> 数据来源见<a href="about.html">数据说明</a></span>
+    </footer>
+    <script>
+      window.addEventListener(
+        "error",
+        function (event) {
+          if (event.message || event.target instanceof HTMLScriptElement) {
+            const notice = document.getElementById("errors");
+            notice.hidden = false;
+            notice.textContent = "地图未能完成加载，请刷新页面。" + (event.message || "");
+          }
+        },
+        true
+      );
+    </script>
+    <script src="assets/leaflet.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/mapbase.js"></script>
+    <script src="js/map-national.js"></script>
+    <script src="js/map-junctions.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>

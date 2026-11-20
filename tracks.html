@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>开放轨道检索 · 中国铁路图鉴</title>
+  <link rel="icon" href="assets/favicon.svg" /><link rel="stylesheet" href="assets/leaflet.css" />
+  <link rel="stylesheet" href="css/site.css" /><link rel="stylesheet" href="css/tracks.css" />
+</head>
+<body class="track-page">
+  <header></header>
+  <main class="track-workspace">
+    <div id="track-map" aria-label="开放铁路轨迹地图"></div>
+    <aside class="track-panel glass">
+      <div class="track-head"><div><a href="./">返回百科地图</a><h1>开放轨道检索</h1></div>
+        <button type="button" id="track-collapse" aria-expanded="true" aria-controls="track-options">收起</button></div>
+      <div id="track-options">
+        <p id="track-coverage" role="status">正在载入轨道索引…</p>
+        <label for="track-query">轨道名称</label>
+        <input type="search" id="track-query" placeholder="如 沪宁城际、京广、京沪" autocomplete="off" />
+        <p id="track-count"></p><div id="track-choices"></div>
+        <div class="track-paging"><button id="track-prev">上一页</button><span id="track-page"></span><button id="track-next">下一页</button></div>
+      </div>
+    </aside>
+    <section class="track-detail glass" id="track-detail" aria-live="polite">选择轨道名称，查看开放地图采集到的实际线段。</section>
+  </main>
+  <script src="assets/leaflet.js"></script><script src="js/ui.js"></script>
+  <script src="js/mapbase.js"></script><script src="js/tracks.js"></script>
+</body></html>

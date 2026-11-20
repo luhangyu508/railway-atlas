@@ -1,0 +1,1401 @@
+{
+  "asOf": "2026-11-21",
+  "source": "https://www.china-emu.cn/Trains/ALL/",
+  "terms": "https://www.china-emu.cn/About/Agreement/",
+  "items": [
+    {
+      "name": "140 km/h双供电制式动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/Cinova140/"
+    },
+    {
+      "name": "160 km/h 城际动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ7/"
+    },
+    {
+      "name": "200 km/h动力集中动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/II/"
+    },
+    {
+      "name": "280 km/h动力集中动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/III/"
+    },
+    {
+      "name": "700T",
+      "url": "https://www.china-emu.cn/Trains/Model/700T/"
+    },
+    {
+      "name": "CCD2031(4辆编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CCD2031-4/"
+    },
+    {
+      "name": "CCD2031(8辆编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CCD2031-8/"
+    },
+    {
+      "name": "CCD5086",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-863-305-S.html"
+    },
+    {
+      "name": "CCD5089",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-926-305-S.html"
+    },
+    {
+      "name": "CF600",
+      "url": "https://www.china-emu.cn/Trains/Model/SFCF02/"
+    },
+    {
+      "name": "Cinova H2",
+      "url": "https://www.china-emu.cn/Trains/Model/CinovaH2/"
+    },
+    {
+      "name": "CJ2",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3G-CJ2/"
+    },
+    {
+      "name": "CJ3",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3F-CJ3/"
+    },
+    {
+      "name": "CJ4",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ4/"
+    },
+    {
+      "name": "CJ5(柴油)",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ5-0506/"
+    },
+    {
+      "name": "CJ5(电池)",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ5-0505/"
+    },
+    {
+      "name": "CJ5E",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ5E/"
+    },
+    {
+      "name": "CJ5E-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ5E-A/"
+    },
+    {
+      "name": "CJ5E-B",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ5E-B/"
+    },
+    {
+      "name": "CJ6",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ6/"
+    },
+    {
+      "name": "CJ6(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CJ6-0/"
+    },
+    {
+      "name": "CR200J(乌兹别克斯坦)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J-UZ/"
+    },
+    {
+      "name": "CR200J1(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-0/"
+    },
+    {
+      "name": "CR200J1(长编组样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-0-18/"
+    },
+    {
+      "name": "CR200J1-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-A/"
+    },
+    {
+      "name": "CR200J1-A(长编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-A-18/"
+    },
+    {
+      "name": "CR200J1-B",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-B/"
+    },
+    {
+      "name": "CR200J1-B(长编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-B-20/"
+    },
+    {
+      "name": "CR200J1-C",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-C/"
+    },
+    {
+      "name": "CR200J1-C(18编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-C-18/"
+    },
+    {
+      "name": "CR200J1-C(19编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-C-19/"
+    },
+    {
+      "name": "CR200J1-D",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-D/"
+    },
+    {
+      "name": "CR200J1-J",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J1-J/"
+    },
+    {
+      "name": "CR200J2(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J2-0/"
+    },
+    {
+      "name": "CR200J2(长编组样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J2-0-18/"
+    },
+    {
+      "name": "CR200J2-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J2-A/"
+    },
+    {
+      "name": "CR200J2-B",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J2-B/"
+    },
+    {
+      "name": "CR200J2-C(18编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J2-C-18/"
+    },
+    {
+      "name": "CR200J3(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-0/"
+    },
+    {
+      "name": "CR200J3(长编组样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-0-18/"
+    },
+    {
+      "name": "CR200J3-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-A/"
+    },
+    {
+      "name": "CR200J3-A(长编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-A-18/"
+    },
+    {
+      "name": "CR200J3-B",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-B/"
+    },
+    {
+      "name": "CR200J3-B(跨国版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-B-O/"
+    },
+    {
+      "name": "CR200J3-B(长编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-B-20/"
+    },
+    {
+      "name": "CR200J3-C",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-C/"
+    },
+    {
+      "name": "CR200J3-C(18编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-C-18/"
+    },
+    {
+      "name": "CR200J3-C(19编组)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-C-19/"
+    },
+    {
+      "name": "CR200J3-J",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J3-J/"
+    },
+    {
+      "name": "CR200JN",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200JN/"
+    },
+    {
+      "name": "CR200JN(试制)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200JN-0/"
+    },
+    {
+      "name": "CR200JS-G",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200JS-G/"
+    },
+    {
+      "name": "CR220J1",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J1-1/"
+    },
+    {
+      "name": "CR220J1(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J1-0/"
+    },
+    {
+      "name": "CR220J1(货运)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J1-F/"
+    },
+    {
+      "name": "CR220J1-H(试制)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J1-H/"
+    },
+    {
+      "name": "CR220J3",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J3-1/"
+    },
+    {
+      "name": "CR220J3(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J3-0/"
+    },
+    {
+      "name": "CR220J3(货运)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J1-F/"
+    },
+    {
+      "name": "CR220J3-H(试制)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J3-H/"
+    },
+    {
+      "name": "CR300AF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300AF-1/"
+    },
+    {
+      "name": "CR300AF(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300AF-0/"
+    },
+    {
+      "name": "CR300AF-H",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300AF-H/"
+    },
+    {
+      "name": "CR300BF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300BF-1/"
+    },
+    {
+      "name": "CR300BF(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300BF-0/"
+    },
+    {
+      "name": "CR300BF-H",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300BF-H/"
+    },
+    {
+      "name": "CR400AF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-1/"
+    },
+    {
+      "name": "CR400AF(双控)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-LKJ/"
+    },
+    {
+      "name": "CR400AF(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-0/"
+    },
+    {
+      "name": "CR400AF-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-A/"
+    },
+    {
+      "name": "CR400AF-AE",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-AE/"
+    },
+    {
+      "name": "CR400AF-AS",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-AS/"
+    },
+    {
+      "name": "CR400AF-AX",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-AX/"
+    },
+    {
+      "name": "CR400AF-AZ",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-AZ/"
+    },
+    {
+      "name": "CR400AF-B",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-B/"
+    },
+    {
+      "name": "CR400AF-BS",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-BS/"
+    },
+    {
+      "name": "CR400AF-BZ",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-BZ/"
+    },
+    {
+      "name": "CR400AF-C",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-C/"
+    },
+    {
+      "name": "CR400AF-EX",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-EX/"
+    },
+    {
+      "name": "CR400AF-G",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-G/"
+    },
+    {
+      "name": "CR400AF-G(原可变轨距)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-G-0021/"
+    },
+    {
+      "name": "CR400AF-J",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-J-0002/"
+    },
+    {
+      "name": "CR400AF-J(原公务车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-J-2808/"
+    },
+    {
+      "name": "CR400AF-S",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-S/"
+    },
+    {
+      "name": "CR400AF-X",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-X/"
+    },
+    {
+      "name": "CR400AF-Z",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-Z/"
+    },
+    {
+      "name": "CR400AF—S",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF-SS/"
+    },
+    {
+      "name": "CR400BF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-1/"
+    },
+    {
+      "name": "CR400BF(原可变轨距)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-0031/"
+    },
+    {
+      "name": "CR400BF(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-0/"
+    },
+    {
+      "name": "CR400BF-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-A/"
+    },
+    {
+      "name": "CR400BF-A(纵向卧铺)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-E/"
+    },
+    {
+      "name": "CR400BF-AS",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-AS/"
+    },
+    {
+      "name": "CR400BF-AX",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-AX/"
+    },
+    {
+      "name": "CR400BF-AZ",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-AZ/"
+    },
+    {
+      "name": "CR400BF-B",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-B/"
+    },
+    {
+      "name": "CR400BF-BS",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-BS/"
+    },
+    {
+      "name": "CR400BF-BZ",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-BZ/"
+    },
+    {
+      "name": "CR400BF-C",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-C/"
+    },
+    {
+      "name": "CR400BF-C(冬奥版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-C-5162/"
+    },
+    {
+      "name": "CR400BF-G",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-G/"
+    },
+    {
+      "name": "CR400BF-G(原可变轨距)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-G-0051/"
+    },
+    {
+      "name": "CR400BF-GS",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-GS/"
+    },
+    {
+      "name": "CR400BF-GX",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-GX/"
+    },
+    {
+      "name": "CR400BF-GZ",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-GZ/"
+    },
+    {
+      "name": "CR400BF-J-0001",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-J-0001/"
+    },
+    {
+      "name": "CR400BF-J-0003",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-J-0003/"
+    },
+    {
+      "name": "CR400BF-S",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-S/"
+    },
+    {
+      "name": "CR400BF-X",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-X/"
+    },
+    {
+      "name": "CR400BF-Z",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-Z/"
+    },
+    {
+      "name": "CR400BF-Z(亚运版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-Z-0524/"
+    },
+    {
+      "name": "CR400BF-Z(双层)",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-13400-101-S.html"
+    },
+    {
+      "name": "CR400BF-Z(纵向卧铺)",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-13401-102-S.html"
+    },
+    {
+      "name": "CR400BF—S",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF-SS/"
+    },
+    {
+      "name": "CR450AF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450AF-1/"
+    },
+    {
+      "name": "CR450AF(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450AF-J/"
+    },
+    {
+      "name": "CR450AF-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450AF-A/"
+    },
+    {
+      "name": "CR450BF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450BF-1/"
+    },
+    {
+      "name": "CR450BF(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450BF-J/"
+    },
+    {
+      "name": "CR450BF-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450BF-A/"
+    },
+    {
+      "name": "CRH1A-200",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH1A-200/"
+    },
+    {
+      "name": "CRH1A-250",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH1A-250/"
+    },
+    {
+      "name": "CRH1A-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH1A-A/"
+    },
+    {
+      "name": "CRH1B",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH1B/"
+    },
+    {
+      "name": "CRH1B(1E头型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH1B-E/"
+    },
+    {
+      "name": "CRH1E",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH1E/"
+    },
+    {
+      "name": "CRH1E(NG)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH1E-NG/"
+    },
+    {
+      "name": "CRH2-300",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2-300/"
+    },
+    {
+      "name": "CRH2A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2A/"
+    },
+    {
+      "name": "CRH2A(NG)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2A-2460/"
+    },
+    {
+      "name": "CRH2A(统型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2A-T/"
+    },
+    {
+      "name": "CRH2A(综合检测车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2A-J/"
+    },
+    {
+      "name": "CRH2A(货运)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2A-T/"
+    },
+    {
+      "name": "CRH2B",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2B/"
+    },
+    {
+      "name": "CRH2B(统型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2B-T/"
+    },
+    {
+      "name": "CRH2C(一阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2C-Gen1/"
+    },
+    {
+      "name": "CRH2C(二阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2C-Gen2/"
+    },
+    {
+      "name": "CRH2C(综合检测车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2C-J/"
+    },
+    {
+      "name": "CRH2E",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2E/"
+    },
+    {
+      "name": "CRH2E(NG)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2E-2462/"
+    },
+    {
+      "name": "CRH2E(NG高寒)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2E-2461/"
+    },
+    {
+      "name": "CRH2E(纵向)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2E-Z/"
+    },
+    {
+      "name": "CRH2G",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2G/"
+    },
+    {
+      "name": "CRH2G(技术提升型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2G-U/"
+    },
+    {
+      "name": "CRH2H",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2H/"
+    },
+    {
+      "name": "CRH2J",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2J/"
+    },
+    {
+      "name": "CRH380A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380A/"
+    },
+    {
+      "name": "CRH380A(港铁)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380A-MTR/"
+    },
+    {
+      "name": "CRH380A(统型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380A-T/"
+    },
+    {
+      "name": "CRH380AJ",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AJ-1/"
+    },
+    {
+      "name": "CRH380AJ(原公务车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AJ-3/"
+    },
+    {
+      "name": "CRH380AJ(统型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AJ-2/"
+    },
+    {
+      "name": "CRH380AL(一阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AL-1/"
+    },
+    {
+      "name": "CRH380AL(三阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AL-3/"
+    },
+    {
+      "name": "CRH380AL(二阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AL-2/"
+    },
+    {
+      "name": "CRH380AM",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AM/"
+    },
+    {
+      "name": "CRH380AN",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380AN/"
+    },
+    {
+      "name": "CRH380A实验车",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2C-2150/"
+    },
+    {
+      "name": "CRH380B",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380B/"
+    },
+    {
+      "name": "CRH380B(货运)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BF/"
+    },
+    {
+      "name": "CRH380BG",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BG/"
+    },
+    {
+      "name": "CRH380BG(统型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BG-T/"
+    },
+    {
+      "name": "CRH380BJ",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BJ/"
+    },
+    {
+      "name": "CRH380BJ-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BJ-A/"
+    },
+    {
+      "name": "CRH380BL(一阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BL-1/"
+    },
+    {
+      "name": "CRH380BL(三阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BL-3/"
+    },
+    {
+      "name": "CRH380BL(二阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380BL-2/"
+    },
+    {
+      "name": "CRH380CL",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380CL/"
+    },
+    {
+      "name": "CRH380D",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380D/"
+    },
+    {
+      "name": "CRH380D(统型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380D-T/"
+    },
+    {
+      "name": "CRH380DL",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH380DL/"
+    },
+    {
+      "name": "CRH3A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3A/"
+    },
+    {
+      "name": "CRH3A(城际版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3A-CJ1/"
+    },
+    {
+      "name": "CRH3A(技术提升型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3A/"
+    },
+    {
+      "name": "CRH3A-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3A-A/"
+    },
+    {
+      "name": "CRH3A-A(样车)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3A-A-0/"
+    },
+    {
+      "name": "CRH3C(一阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3C-Gen1/"
+    },
+    {
+      "name": "CRH3C(二阶段)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3C-Gen2/"
+    },
+    {
+      "name": "CRH3E",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3E/"
+    },
+    {
+      "name": "CRH3X",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3X-250/"
+    },
+    {
+      "name": "CRH3X-350",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3X-350/"
+    },
+    {
+      "name": "CRH5A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5A/"
+    },
+    {
+      "name": "CRH5E",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5E/"
+    },
+    {
+      "name": "CRH5E(纵向)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5E-Z/"
+    },
+    {
+      "name": "CRH5G",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5G/"
+    },
+    {
+      "name": "CRH5G(大功率)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5G-U/"
+    },
+    {
+      "name": "CRH5G(技术提升型)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5G-NG/"
+    },
+    {
+      "name": "CRH5H",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5H/"
+    },
+    {
+      "name": "CRH5J",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH5J/"
+    },
+    {
+      "name": "CRH6A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-Gen1/"
+    },
+    {
+      "name": "CRH6A(中期)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-Gen2/"
+    },
+    {
+      "name": "CRH6A(后期)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-Gen3/"
+    },
+    {
+      "name": "CRH6A(智能版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-Z/"
+    },
+    {
+      "name": "CRH6A(舒适版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-Comfort/"
+    },
+    {
+      "name": "CRH6A-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-A/"
+    },
+    {
+      "name": "CRH6A-A(2.0)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-A-2.0/"
+    },
+    {
+      "name": "CRH6A-A(智能版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6A-A-Z/"
+    },
+    {
+      "name": "CRH6F",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6F/"
+    },
+    {
+      "name": "CRH6F(2.0)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6F-2.0/"
+    },
+    {
+      "name": "CRH6F-A",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6F-A/"
+    },
+    {
+      "name": "CRH6F-A(2.0)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6F-A-2.0/"
+    },
+    {
+      "name": "CRH6F-A(智能版)",
+      "url": "https://www.china-emu.cn/Trains/Model/CRH6F-A-Z/"
+    },
+    {
+      "name": "CRRC Tiger",
+      "url": "https://www.china-emu.cn/Trains/Model/SOKO/"
+    },
+    {
+      "name": "DDJ1 大白鲨",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/DDJ1/"
+    },
+    {
+      "name": "DEMU1",
+      "url": "https://www.china-emu.cn/Trains/Model/DEMU1/"
+    },
+    {
+      "name": "DEMU2",
+      "url": "https://www.china-emu.cn/Trains/Model/DEMU2/"
+    },
+    {
+      "name": "DJF1 中原之星",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/DJF1/"
+    },
+    {
+      "name": "DJF2 先锋",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/DJF2/"
+    },
+    {
+      "name": "DJF3 长白山",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/DJF3/"
+    },
+    {
+      "name": "DJJ1 蓝箭",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/DJJ1/"
+    },
+    {
+      "name": "DJJ2 中华之星",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/DJJ2/"
+    },
+    {
+      "name": "D型城际动车组",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-856-305-S.html"
+    },
+    {
+      "name": "D型市域动车组",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-1112-305-S.html"
+    },
+    {
+      "name": "D型市域动车组",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-249-305-S.html"
+    },
+    {
+      "name": "ECRL动力集中动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J-MY/"
+    },
+    {
+      "name": "ECRL综合检测列车",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J-MY-J/"
+    },
+    {
+      "name": "GDJ1 天驰 (SFD10)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD10/"
+    },
+    {
+      "name": "GSYE10",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-548-305-S.html"
+    },
+    {
+      "name": "GSYE13",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-254-305-S.html"
+    },
+    {
+      "name": "GSYE20",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-120-305-S.html"
+    },
+    {
+      "name": "GSYE23",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-121-305-S.html"
+    },
+    {
+      "name": "GSYE36",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-585-305-S.html"
+    },
+    {
+      "name": "GSYE46",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-1161-305-S.html"
+    },
+    {
+      "name": "GSYE61",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-1133-305-S.html"
+    },
+    {
+      "name": "GSYE62",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-1132-305-S.html"
+    },
+    {
+      "name": "KCIC400AF",
+      "url": "https://www.china-emu.cn/Trains/Model/KCIC400AF/"
+    },
+    {
+      "name": "KCIC400AF-CIT",
+      "url": "https://www.china-emu.cn/Trains/Model/KCIC400AF-CIT/"
+    },
+    {
+      "name": "KDZ1",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/KDZ1/"
+    },
+    {
+      "name": "KDZ1A 春城号",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/KDZ1A/"
+    },
+    {
+      "name": "KDZ2 北亚号",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/KDZ2/"
+    },
+    {
+      "name": "LCR200J3-B",
+      "url": "https://www.china-emu.cn/Trains/Model/LCR200J3-B/"
+    },
+    {
+      "name": "N700ST",
+      "url": "https://www.china-emu.cn/Trains/Model/N700ST/"
+    },
+    {
+      "name": "NDJ3",
+      "url": "https://www.china-emu.cn/Trains/Model/NDJ3/"
+    },
+    {
+      "name": "NDJ3N",
+      "url": "https://www.china-emu.cn/Trains/Model/NDJ3N/"
+    },
+    {
+      "name": "NYF1 天安A0001/2 (SFD13)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/NYF1-SFD13/"
+    },
+    {
+      "name": "NYJ1(SFD01) 九江号 (SFD01)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD01/"
+    },
+    {
+      "name": "NYJ1(SFD03) 北亚号 (SFD03)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD03/"
+    },
+    {
+      "name": "NYJ1(SFD06) 罕露号 (SFD06)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD06/"
+    },
+    {
+      "name": "NYJ1(SFD07) 晋龙号 (SFD07)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD07/"
+    },
+    {
+      "name": "NYJ1(SFD08) 罕露号 (SFD08)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD08/"
+    },
+    {
+      "name": "NYJ1(SFD09) 北海号 (SFD09)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD09/"
+    },
+    {
+      "name": "NYJ1(SFD12) 包神号 (SFD12)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD12/"
+    },
+    {
+      "name": "NYJ1(SFD15) 罕露号 (SFD15)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD15/"
+    },
+    {
+      "name": "NZJ 庐山号",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/NZJ/"
+    },
+    {
+      "name": "NZJ1-0001 庐山号",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/NZJ1-0001/"
+    },
+    {
+      "name": "NZJ1-0002 集通",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/NZJ1-0002/"
+    },
+    {
+      "name": "NZJ1-7001新曙光",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/Detail-90005-202-S.html"
+    },
+    {
+      "name": "NZJ2神州号",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/Detail-90006-202-S.html"
+    },
+    {
+      "name": "NZJ2金轮号(单层)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/Detail-90007-202-S.html"
+    },
+    {
+      "name": "NZJ2金轮号(双层)",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/Detail-90008-202-S.html"
+    },
+    {
+      "name": "PM222",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-425-305-S.html"
+    },
+    {
+      "name": "PM222样车",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-726-305-S.html"
+    },
+    {
+      "name": "PTN01普天号",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/Detail-90022-202-S.html"
+    },
+    {
+      "name": "QN250(CK)",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-11061-101-S.html"
+    },
+    {
+      "name": "QN250(SF)",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-11051-101-S.html"
+    },
+    {
+      "name": "RapidTransit",
+      "url": "https://www.china-emu.cn/Trains/Model/RapidTrasit/"
+    },
+    {
+      "name": "SFCF01",
+      "url": "https://www.china-emu.cn/Trains/Model/SFCF01/"
+    },
+    {
+      "name": "SFD14 天安A0003",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/SFD14/"
+    },
+    {
+      "name": "SFD29",
+      "url": "https://www.china-emu.cn/Trains/Model/SFD29/"
+    },
+    {
+      "name": "SFD30",
+      "url": "https://www.china-emu.cn/Trains/Model/SFD30/"
+    },
+    {
+      "name": "SFEMU-EU01",
+      "url": "https://www.china-emu.cn/Trains/Model/SFEMU-EU01/"
+    },
+    {
+      "name": "Sirius",
+      "url": "https://www.china-emu.cn/Trains/Model/Sirius/"
+    },
+    {
+      "name": "SJ250",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-21011-101-S.html"
+    },
+    {
+      "name": "SRC160B4-L",
+      "url": "https://www.china-emu.cn/Trains/Model/SRC160B4-L/"
+    },
+    {
+      "name": "SRC160BA",
+      "url": "https://www.china-emu.cn/Trains/Model/SRC160BA/"
+    },
+    {
+      "name": "SRC160BA-A",
+      "url": "https://www.china-emu.cn/Trains/Model/SRC160BA-A/"
+    },
+    {
+      "name": "SRC160CZ",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-703-305-S.html"
+    },
+    {
+      "name": "SRC160DA-A(未定名)",
+      "url": "https://www.china-emu.cn/Trains/Model/PM217/"
+    },
+    {
+      "name": "SYC",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-40062-301-S.html"
+    },
+    {
+      "name": "SYD01",
+      "url": "https://www.china-emu.cn/Trains/Model/SYD01/"
+    },
+    {
+      "name": "SYD160",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-658-305-S.html"
+    },
+    {
+      "name": "TSD09 三茂铁路",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/TSD09/"
+    },
+    {
+      "name": "X80",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-21010-201-S.html"
+    },
+    {
+      "name": "ZBS01",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-116-305-S.html"
+    },
+    {
+      "name": "ZBS03",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-629-305-S.html"
+    },
+    {
+      "name": "ZBS04",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-716-305-S.html"
+    },
+    {
+      "name": "ZBS06",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-1103-305-S.html"
+    },
+    {
+      "name": "ZDMU01",
+      "url": "https://www.china-emu.cn/Trains/Model/ZDMU01/"
+    },
+    {
+      "name": "ZEMU01",
+      "url": "https://www.china-emu.cn/Trains/Model/ZEMU01/"
+    },
+    {
+      "name": "下一代市域动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/Cinova2/"
+    },
+    {
+      "name": "内电双源动力集中动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200JH/"
+    },
+    {
+      "name": "唐山高温超导高速磁悬浮",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-5-701-S.html"
+    },
+    {
+      "name": "天安1001",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/1001/"
+    },
+    {
+      "name": "天安2001",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/2001/"
+    },
+    {
+      "name": "市域D1型",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-177-305-S.html"
+    },
+    {
+      "name": "市域D2型",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-178-305-S.html"
+    },
+    {
+      "name": "拉各斯红线动力集中动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-10290-106-S.html"
+    },
+    {
+      "name": "新型都市快轨列车",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-657-305-S.html"
+    },
+    {
+      "name": "时速350公里高速货运动车组(唐山)",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-13322-104-S.html"
+    },
+    {
+      "name": "时速350公里高速货运动车组(四方)",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-12529-104-S.html"
+    },
+    {
+      "name": "时速350公里高速货运动车组(长春)",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-13321-104-S.html"
+    },
+    {
+      "name": "暂无 型号",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-1135-305-S.html"
+    },
+    {
+      "name": "暂无型号",
+      "url": "https://www.china-emu.cn/Trains/UrbanRails/Model/Detail-140-305-S.html"
+    },
+    {
+      "name": "氢能市域动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/SRA160H2/"
+    },
+    {
+      "name": "自行公务动车 GW97326",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/GW97326/"
+    },
+    {
+      "name": "自行公务动车 JY98001",
+      "url": "https://www.china-emu.cn/Trains/Exploration-Model/JY98001/"
+    },
+    {
+      "name": "长客常导高速磁悬浮",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-2-701-S.html"
+    },
+    {
+      "name": "长客高温超导高速磁悬浮",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-4-701-S.html"
+    },
+    {
+      "name": "面向未来的新一代轴重13吨级列车AF",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-9001-101-S.html"
+    },
+    {
+      "name": "面向未来的新一代轴重13吨级列车BF",
+      "url": "https://www.china-emu.cn/Trains/Model/Detail-9201-101-S.html"
+    }
+  ],
+  "families": [
+    {
+      "name": "Cinova",
+      "url": "https://www.china-emu.cn/Trains/Intercity/Cinova/"
+    },
+    {
+      "name": "Cinova 2.0",
+      "url": "https://www.china-emu.cn/Trains/Intercity/Cinova/"
+    },
+    {
+      "name": "Cinova城轨",
+      "url": "https://www.china-emu.cn/Trains/Intercity/Cinova/"
+    },
+    {
+      "name": "CR200J(1.0)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J-A/"
+    },
+    {
+      "name": "CR200J(2.0)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J-B/"
+    },
+    {
+      "name": "CR200J(3.0)",
+      "url": "https://www.china-emu.cn/Trains/Model/CR200J-C/"
+    },
+    {
+      "name": "CR220J",
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J/"
+    },
+    {
+      "name": "CR300AF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300AF/"
+    },
+    {
+      "name": "CR300BF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR300BF/"
+    },
+    {
+      "name": "CR400AF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AF/"
+    },
+    {
+      "name": "CR400AF智能",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400AFC/"
+    },
+    {
+      "name": "CR400BF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BF/"
+    },
+    {
+      "name": "CR400BF智能",
+      "url": "https://www.china-emu.cn/Trains/Model/CR400BFC/"
+    },
+    {
+      "name": "CR450AF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450AF/"
+    },
+    {
+      "name": "CR450BF",
+      "url": "https://www.china-emu.cn/Trains/Model/CR450BF/"
+    },
+    {
+      "name": "CRH1",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH1A/"
+    },
+    {
+      "name": "CRH1(ZEFIRO250)",
+      "url": "https://www.china-emu.cn/Trains/Series/ZEFIRO250/"
+    },
+    {
+      "name": "CRH1(ZEFIRO250NG)",
+      "url": "https://www.china-emu.cn/Trains/Series/ZEFIRO250NG/"
+    },
+    {
+      "name": "CRH2",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH2/"
+    },
+    {
+      "name": "CRH2(高速)",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH2C/"
+    },
+    {
+      "name": "CRH2-NG",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH2A-NG/"
+    },
+    {
+      "name": "CRH3",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH3/"
+    },
+    {
+      "name": "CRH3(高速)",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH3C/"
+    },
+    {
+      "name": "CRH380A",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH380A/"
+    },
+    {
+      "name": "CRH380B",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH380B/"
+    },
+    {
+      "name": "CRH380C",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH380C/"
+    },
+    {
+      "name": "CRH380D",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH380D/"
+    },
+    {
+      "name": "CRH5",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH5/"
+    },
+    {
+      "name": "CRH5-NG",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH5-NG/"
+    },
+    {
+      "name": "NZJ",
+      "url": "https://www.china-emu.cn/Trains/Series/NZJ/"
+    },
+    {
+      "name": "中车唐山城际动车组",
+      "url": "https://www.china-emu.cn/Trains/Series/TS/"
+    },
+    {
+      "name": "中车大连动车组",
+      "url": "https://www.china-emu.cn/Trains/Series/DL/"
+    },
+    {
+      "name": "中车株洲动车组",
+      "url": "https://www.china-emu.cn/Trains/Series/ZZ/"
+    },
+    {
+      "name": "中车浦镇动车组",
+      "url": "https://www.china-emu.cn/Trains/Series/PM/"
+    },
+    {
+      "name": "中车长春城际动车组",
+      "url": "https://www.china-emu.cn/Trains/Series/CC/"
+    },
+    {
+      "name": "京车装备动车组",
+      "url": "https://www.china-emu.cn/Trains/Series/BR/"
+    },
+    {
+      "name": "台湾高铁",
+      "url": "https://www.china-emu.cn/Trains/Series/Taiwan/"
+    },
+    {
+      "name": "早期内燃动车组",
+      "url": "https://www.china-emu.cn/Trains/Exploration/"
+    },
+    {
+      "name": "早期电力动车组",
+      "url": "https://www.china-emu.cn/Trains/Exploration/"
+    },
+    {
+      "name": "时速250 km/h动力集中动车组",
+      "url": "https://www.china-emu.cn/Trains/Model/CR275J/"
+    },
+    {
+      "name": "灵活编组动车组",
+      "url": "https://www.china-emu.cn/Trains/Series/CRH3X/"
+    },
+    {
+      "name": "超高速磁悬浮",
+      "url": "https://www.china-emu.cn/Trains/Series/Maglev/"
+    }
+  ],
+  "unlinkedCount": 8,
+  "ambiguousTargets": [
+    {
+      "url": "https://www.china-emu.cn/Trains/Model/CR220J1-F/",
+      "labels": [
+        "CR220J1(货运)",
+        "CR220J3(货运)"
+      ]
+    },
+    {
+      "url": "https://www.china-emu.cn/Trains/Model/CRH2A-T/",
+      "labels": [
+        "CRH2A(统型)",
+        "CRH2A(货运)"
+      ]
+    },
+    {
+      "url": "https://www.china-emu.cn/Trains/Model/CRH3A/",
+      "labels": [
+        "CRH3A",
+        "CRH3A(技术提升型)"
+      ]
+    }
+  ]
+}

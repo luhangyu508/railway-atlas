@@ -1,0 +1,472 @@
+{
+  "updatedAt": "2026-11-21",
+  "description": "本期选录跨区域或衔接重要铁路枢纽、已有客运资料的干线。普通铁路可兼办货运，部分运营线路按已收录区段展示。",
+  "lines": [
+    {
+      "id": "r01",
+      "services": [
+        {
+          "number": "G1",
+          "date": "2017-09-21",
+          "path": "北京南至上海虹桥，报道记录列车在京沪高铁济南西站驶出。",
+          "source": {
+            "title": "新华网《350公里！“复兴号”开启中国高铁新时速》",
+            "url": "https://www.xinhuanet.com/politics/2017-09/21/c_1121703262.htm"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "passengerSource": {
+        "title": "2026年7月铁路运行图 · 京广、京沪、陇海普速客车调整",
+        "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260617_4703972.html"
+      }
+    },
+    {
+      "id": "r02"
+    },
+    {
+      "id": "r15",
+      "passengerSource": {
+        "title": "2026年7月铁路运行图 · 京广、京沪、陇海普速客车调整",
+        "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260617_4703972.html"
+      }
+    },
+    {
+      "id": "r03"
+    },
+    {
+      "id": "r14"
+    },
+    {
+      "id": "rail-jingha"
+    },
+    {
+      "id": "rail-binzhou"
+    },
+    {
+      "id": "rail-binsui"
+    },
+    {
+      "id": "rail-xiangyu"
+    },
+    {
+      "id": "rail-lanyu"
+    },
+    {
+      "id": "hs-chenggui"
+    },
+    {
+      "id": "hs-zhengfu"
+    },
+    {
+      "id": "r04"
+    },
+    {
+      "id": "r17",
+      "passengerSource": {
+        "title": "2026年长三角铁路运行图 · 沪昆铁路普速列车",
+        "url": "https://kab.sww.sh.gov.cn/xwzx/001001/20260119/625b851e-c841-4e09-b411-9f8cd4ce44e8.html"
+      }
+    },
+    {
+      "id": "r05"
+    },
+    {
+      "id": "r16",
+      "passengerSource": {
+        "title": "2026年7月铁路运行图 · 京广、京沪、陇海普速客车调整",
+        "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202606/t20260617_4703972.html"
+      }
+    },
+    {
+      "id": "r08"
+    },
+    {
+      "id": "r22"
+    },
+    {
+      "id": "r24",
+      "services": [
+        {
+          "number": "青1",
+          "date": "2006-07-01",
+          "path": "青藏铁路格尔木至拉萨段。列车7月1日由格尔木出发，次日抵达拉萨。",
+          "source": {
+            "title": "中国驻泰国大使馆刊载《中国铁路：瞄准跨越式发展》",
+            "url": "https://th.china-embassy.gov.cn/ztbd/National/200610/t20061005_1426984.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "r12"
+    },
+    {
+      "id": "r06"
+    },
+    {
+      "id": "r07"
+    },
+    {
+      "id": "r09"
+    },
+    {
+      "id": "r10"
+    },
+    {
+      "id": "r11"
+    },
+    {
+      "id": "r18",
+      "passengerSource": {
+        "title": "焦柳铁路北段公益性旅客列车 · 麻阳县政府",
+        "url": "https://www.mayang.gov.cn/mayang/c105460/202112/9a05131b9e0d4394963268bbc941368f.shtml"
+      }
+    },
+    {
+      "id": "r19",
+      "passengerSource": {
+        "title": "宝成铁路秦岭区段公益性列车 · 交通运输部",
+        "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202512/t20251226_4184210.html"
+      }
+    },
+    {
+      "id": "r20"
+    },
+    {
+      "id": "r25"
+    },
+    {
+      "id": "r27"
+    },
+    {
+      "id": "r28"
+    },
+    {
+      "id": "hs-hefu"
+    },
+    {
+      "id": "hs-jingzhang",
+      "services": [
+        {
+          "number": "G8811",
+          "date": "2019-12-30",
+          "path": "北京北至太子城，经京张高铁及崇礼铁路。",
+          "source": {
+            "title": "北京市纪委监委网站《百年京张：从争气路到先行路》",
+            "url": "https://www.bjsupervision.gov.cn/ywyl/201912/t20191230_67259.html"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hs-yinxi"
+    },
+    {
+      "id": "rail-nankun",
+      "passengerSource": {
+        "title": "南昆铁路运营二十年回顾",
+        "url": "https://www.xinhuanet.com/politics/2017-12/03/c_1122049721.htm"
+      }
+    },
+    {
+      "id": "rail-baolan",
+      "passengerSource": {
+        "title": "乌海市铁路专用线总体规划：包兰线与既有运营情况",
+        "url": "https://fgw.wuhai.gov.cn/fgw/507589/507597/1667223/%E4%B9%8C%E6%B5%B7%E5%B8%82%E9%93%81%E8%B7%AF%E4%B8%93%E7%94%A8%E7%BA%BF%E6%80%BB%E4%BD%93%E8%A7%84%E5%88%92%EF%BC%88%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81%E7%A8%BF%EF%BC%89.pdf"
+      }
+    },
+    {
+      "id": "rail-ningxi",
+      "passengerSource": {
+        "title": "信阳铁路史大事记：宁西线开行客车",
+        "url": "https://ribao.xyxww.com.cn/html/14/2014-10/13/03/2014101303_pdf.pdf"
+      }
+    },
+    {
+      "id": "rail-nanjiang",
+      "passengerSource": {
+        "title": "新疆铁路跨越60年：南疆铁路全线运营",
+        "url": "https://www.nra.gov.cn/tlfc/tpsy/202204/t20220405_292968.shtml"
+      }
+    },
+    {
+      "id": "rail-xianggui",
+      "passengerSource": {
+        "title": "中国铁路南宁局介绍恢复中越国际旅客联运",
+        "url": "https://www.zgjtb.com/2025-05/23/content_466940.html"
+      }
+    },
+    {
+      "id": "hs-guangshengang",
+      "passengerSource": {
+        "title": "广深港高铁香港段投入运营",
+        "url": "https://www.hunan.gov.cn/hnyw/zwdt/201809/t20180923_5101013.html"
+      }
+    },
+    {
+      "id": "hs-daxi",
+      "passengerSource": {
+        "title": "集大原高铁全线开通",
+        "url": "https://www.dt.gov.cn/dt12345/rxdt1/202412/20b43dcd15ad46d6a58d925aef2c15fd.shtml"
+      }
+    },
+    {
+      "id": "hs-haqi",
+      "passengerSource": {
+        "title": "哈齐高铁开通运营八周年及设计时速",
+        "url": "https://www.hlj.gov.cn/hlj/c107856/202308/c00_31660175.shtml"
+      }
+    },
+    {
+      "id": "rail-hengliu",
+      "passengerSource": {
+        "title": "衡柳铁路工程技术标准",
+        "url": "https://www.hunan.gov.cn/xxgk/zdxm/201308/t20130816_4865320.html"
+      }
+    },
+    {
+      "id": "rail-nanguang",
+      "passengerSource": {
+        "title": "兰新、贵广、南广三条铁路开通",
+        "url": "https://www.nra.gov.cn/xwzx/xwxx/xwlb/202204/t20220405_279548.shtml"
+      }
+    },
+    {
+      "id": "rail-yugui",
+      "passengerSource": {
+        "title": "渝贵铁路、重庆西站开通首日",
+        "url": "https://jtj.cq.gov.cn/zwgk_240/zfxxgkml/jttj/201801/t20180125_4372563.html"
+      }
+    },
+    {
+      "id": "hs-shitai",
+      "passengerSource": {
+        "title": "石太客专联锁列控及通信系统大修工程 · 项目概况",
+        "url": "https://ggzyfw.beijing.gov.cn/cmsbj/u/cms/cn.gov.bjggzyfw.www/202406/6325494571872.pdf"
+      }
+    },
+    {
+      "id": "hs-xiyan",
+      "passengerSource": {
+        "title": "西延高铁12月26日开通运营：设站、线路全长与设计时速",
+        "url": "https://www.tcdj.gov.cn/info_47844.aspx"
+      }
+    },
+    {
+      "id": "hs-xiongshang",
+      "passengerSource": {
+        "title": "京港高铁雄商段开通运营：正线、设计速度与全线车站",
+        "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202609/t20260929_4884722.html"
+      }
+    },
+    {
+      "id": "hs-wuxi",
+      "passengerSource": {
+        "title": "西安至十堰高铁正式开通运营",
+        "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202607/t20260701_4208564.html"
+      }
+    },
+    {
+      "id": "hs-jingbao",
+      "passengerSource": {
+        "title": "京张与张呼高铁贯通，呼包开行进京列车",
+        "url": "https://www.nm.jcy.gov.cn/xwzx/qnyw/201912/t20191230_2749979.shtml"
+      }
+    },
+    {
+      "id": "hs-ganruilong",
+      "passengerSource": {
+        "title": "赣瑞龙铁路开通十周年",
+        "url": "https://www.ganzhou.gov.cn/gzszf/c100022/202512/7133bbb0e18f415980e29798dcf63abd.shtml"
+      }
+    },
+    {
+      "id": "hs-longxia",
+      "passengerSource": {
+        "title": "福建省已开通运营项目基本情况",
+        "url": "https://fgw.fujian.gov.cn/ztzl/tljsbgs/fjstlfzqk/fjtlfzgk/202401/t20240118_6382963.htm"
+      }
+    },
+    {
+      "id": "hs-danda",
+      "passengerSource": {
+        "title": "丹大快速铁路正式开通运营",
+        "url": "https://m.news.cntv.cn/2015/12/17/ARTI1450309538182684.shtml"
+      }
+    },
+    {
+      "id": "hs-husutong",
+      "passengerSource": {
+        "title": "沪苏通铁路一期工程和车站",
+        "url": "https://app.www.gov.cn/govdata/gov/202010/29/464251/article.html"
+      }
+    },
+    {
+      "id": "hs-xiangpu",
+      "passengerSource": {
+        "title": "关于昌福、永莆线旅客列车车票发售的公告",
+        "url": "https://www.12306.cn/mormhweb/zxdt/201309/t20130920_952.html"
+      }
+    },
+    {
+      "id": "hs-jinwen",
+      "passengerSource": {
+        "title": "缙云县综合交通运输中长期规划 · 金温铁路与金温货线",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3658/site/attach/0/da1e7f826177478fa15a6ee80352d5c0.pdf"
+      }
+    },
+    {
+      "id": "hs-husuhu",
+      "passengerSource": {
+        "title": "沪苏湖高铁正式开通运营",
+        "url": "https://www.js.gov.cn/art/2024/12/27/art_90848_11457148.html"
+      }
+    },
+    {
+      "id": "hs-jinqin",
+      "passengerSource": {
+        "title": "津秦高铁开通运营 · 车站、运营里程及初期速度",
+        "url": "https://politics.people.com.cn/n/2013/1201/c70731-23706777.html"
+      }
+    },
+    {
+      "id": "hs-shenda",
+      "passengerSource": {
+        "title": "哈大客专简介：开通日、技术标准及沿线车站",
+        "url": "https://www.nra.gov.cn/ztzl/hy/gcjs2023/xmjj/kzjj/201311/t20131127_344129.shtml"
+      }
+    },
+    {
+      "id": "hs-shenbai",
+      "passengerSource": {
+        "title": "沈佳高铁沈白段正式开通：工程范围及十座车站",
+        "url": "https://www.fswh.gov.cn/ins.asp?i=19712&s=35"
+      }
+    },
+    {
+      "id": "hs-shendan",
+      "passengerSource": {
+        "title": "沈丹客运专线开通时间与丹东站客运",
+        "url": "https://jhzx.dandong.gov.cn/m/news.asp?id=377"
+      }
+    },
+    {
+      "id": "hs-wujiu",
+      "passengerSource": {
+        "title": "武九客专全线开通及黄石境内铁路车站",
+        "url": "https://jtj.huangshi.gov.cn/zwgk/fdzdgknr/jttj/qttjsj/202010/P020210225616525802352.pdf"
+      }
+    },
+    {
+      "id": "rail-ningrong",
+      "passengerSource": {
+        "title": "以沿江高铁通道建设为契机推动区域经济发展",
+        "url": "https://www.ndrc.gov.cn/wsdwhfz/202307/t20230728_1358840.html"
+      }
+    },
+    {
+      "id": "hs-zhengtai",
+      "passengerSource": {
+        "title": "郑州至太原分期开通、全线里程与焦太段车站",
+        "url": "https://www.ndrc.gov.cn/xwdt/ztzl/2021ncy/gzdt/202012/t20201231_1261231.html"
+      }
+    },
+    {
+      "id": "hs-zhangda",
+      "passengerSource": {
+        "title": "国铁集团公布张大高铁开通日期、长度和车站",
+        "url": "https://m.cnr.cn/news/20191228/t20191228_524916929.html"
+      }
+    },
+    {
+      "id": "int-jingtang",
+      "passengerSource": {
+        "title": "京唐城际铁路燕郊至唐山段开通运营",
+        "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202302/t20230228_1350068.html"
+      }
+    },
+    {
+      "id": "hs-fuxia",
+      "passengerSource": {
+        "title": "福厦高铁开通运营了",
+        "publisher": "福建省人民政府",
+        "url": "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/zx/202309/t20230929_6267480.htm",
+        "publishedAt": "2023-09-29",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "id": "hs-yinlan",
+      "passengerSource": {
+        "title": "银兰高铁中兰段正式通车",
+        "publisher": "宁夏回族自治区人民政府",
+        "url": "https://www.nx.gov.cn/zwxx_11337/nxyw/202212/t20221229_3899533.html",
+        "publishedAt": "2022-12-29",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "id": "hs-xuyan",
+      "passengerSource": {
+        "title": "徐盐高铁与连淮段同日开通 · 淮安高铁专题",
+        "publisher": "淮安市人民政府",
+        "url": "https://www.huaian.gov.cn/col/9989_122388/art/201912/15776398144689qefpzz3.html",
+        "publishedAt": "2019-12-17",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "id": "hs-jizheng",
+      "passengerSource": {
+        "title": "济郑高铁全线贯通 · 济濮段及全线资料",
+        "publisher": "郑州市人民政府",
+        "url": "https://www.zhengzhou.gov.cn/12345/mtjj/8052600.jhtml",
+        "publishedAt": "2023-12-07",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "id": "hs-ninghang",
+      "passengerSource": {
+        "title": "宁杭高铁7月1日开通运营",
+        "publisher": "宜兴市人民政府",
+        "url": "https://www.yixing.gov.cn/doc/2013/07/02/637497.shtml",
+        "publishedAt": "2013-07-02",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "id": "hs-guangzhan",
+      "passengerSource": {
+        "title": "广湛高速铁路通车运营与区域发展新闻发布会",
+        "publisher": "湛江市人民政府",
+        "url": "https://www.zhanjiang.gov.cn/zfxwfbh/content/post_2131767.html",
+        "publishedAt": "2025-12-24",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "id": "rail-guangshen-34",
+      "passengerSource": {
+        "title": "公司治理专项活动自查报告 · 四线通车及两组正线技术标准（第7页）",
+        "publisher": "广深铁路股份有限公司",
+        "url": "https://static.cninfo.com.cn/finalpage/2007-07-05/29627286.PDF",
+        "publishedAt": "2007-07-05",
+        "checkedAt": "2026-11-21"
+      }
+    },
+    {
+      "id": "hs-jiaoji",
+      "passengerSource": {
+        "title": "胶济客专票价优化调整公告（附66个站间区间）",
+        "publisher": "胶济铁路客运专线有限责任公司 / 中国铁路12306",
+        "url": "https://kyfw.12306.cn/mormhweb/zxdt/202304/t20230415_39213.html",
+        "publishedAt": "2023-04-15",
+        "checkedAt": "2026-11-21"
+      }
+    }
+  ]
+}

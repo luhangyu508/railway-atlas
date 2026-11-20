@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>全国铁路目录 · 中国铁路图鉴</title>
+  <link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/encyclopedia.css"><link rel="stylesheet" href="css/national.css">
+</head>
+<body><header></header>
+<main class="directory national">
+  <div class="breadcrumbs"><a href="./">地图探索</a> / 全国铁路目录</div>
+  <h1>全国铁路目录</h1>
+      <p class="catalog-more"><a href="hubs.html">浏览枢纽、联络线与线路所</a></p>
+  <p id="coverage" class="directory-intro" aria-live="polite">正在读取全国目录…</p>
+  <form id="national-form" role="search">
+    <label class="national-search"><span>搜索目录</span><input id="national-query" type="search" placeholder="线路、站名、局简称或区段" autocomplete="off"></label>
+    <label><span>资料范围</span><select id="collection"><option value="trunks" selected>主要客运干线</option><option value="networks">客运线路与八纵八横</option><option value="all">全部资料</option><option value="roster">局集团清单</option><option value="facts">公开线路资料</option></select></label>
+    <label id="bureau-field"><span>清单分组</span><select id="bureau"><option value="">全部局集团</option></select></label>
+    <label id="network-group-field" hidden><span>清单分组或通道</span><select id="network-group"><option value="">全部分组</option></select></label>
+    <label id="network-state-field" hidden><span>铁路运营状态</span><select id="network-state"><option value="">全部状态</option></select></label>
+    <button type="reset">清除筛选</button>
+  </form>
+  <div class="trunk-bar" id="trunk-tools"><div role="group" aria-label="干线类别"><button data-nature="" aria-pressed="true">全部干线</button><button data-nature="highspeed">高速铁路</button><button data-nature="conventional">普速铁路</button></div><a href="./?network=passenger-trunks">在地图上看客运干线 →</a></div>
+  <p id="network-reference" class="catalog-more"><a href="national.html?view=networks">浏览普速干线、八纵八横与区域客运线路</a></p>
+  <div id="network-context" hidden>
+    <p id="network-summary" class="index-heading"></p>
+    <p class="detail-foot">通道包含多条线路，可按名称、原列分组和运营区段检索。普速旅客列车新车次 Z、N、V 从 2026 年 11 月 25 日零时起按始发日期启用，具体列车以相应日期的运行资料为准。<a href="https://www.12306.cn/mormhweb/zxdt/202611/t20261105_46591.html">铁路 12306 公告</a> · <a href="https://www.ndrc.gov.cn/fggz/zcssfz/zcgh/201607/t20160720_1145730.html">中长期铁路网规划</a></p>
+  </div>
+  <div class="national-layout">
+    <section aria-label="目录结果" id="directory-index">
+      <p class="index-heading" id="result-summary" aria-live="polite"></p>
+      <div id="national-results"></div>
+      <nav class="national-pages" aria-label="目录分页"><button id="back-page">上一页</button><span id="page-number"></span><button id="next-page">下一页</button></nav>
+    </section>
+    <article id="national-detail" tabindex="-1" aria-label="资料内容"><h2>线路与区段资料</h2><p>选择目录中的条目，可查看原始区段、相关资料与可用的地图。</p></article>
+  </div>
+  <p class="national-notes">局集团清单按提交时的分组和写法保存。跨局出现的同名线路可有多条区段记录。公开线路资料按来源条目统计。各集合有重叠，统计分别列出。公开线路资料取自中文维基百科各条目贡献者的固定修订版本，本站提取事实字段并保留原页出处。<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a>。</p>
+</main>
+<script src="js/ui.js"></script><script src="js/network-directory.js"></script><script src="js/national.js"></script>
+</body></html>
