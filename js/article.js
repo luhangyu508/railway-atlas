@@ -42,9 +42,24 @@ function sources(items) {
     "</ul>"
   );
 }
+function verificationHistory(review) {
+  if (!review) return "";
+  const list = (rows) => "<ul>" + rows.map((text) => "<li>" + esc(text) + "</li>").join("") + "</ul>";
+  return '<section id="verification"><h3>资料核验 · ' + esc(review.checkedAt) + "</h3>" +
+    list(review.added) +
+    (review.remaining.length ? '<details class="section-row"><summary>尚缺哪些资料</summary>' + list(review.remaining) + "</details>" : "") +
+    '<details class="section-row"><summary>查看本次核验来源</summary>' + sources(review.sources) + "</details></section>";
+}
 function sourceDetails(r) {
   const labels = {
     stationIds: "车站与站序",
+    history: "建设与运营历史",
+    scope: "资料适用范围",
+    technicalFeatures: "技术特点",
+    endpoints: "线路端点",
+    grade: "铁路等级",
+    lengthScope: "里程口径",
+    features: "线路特点",
     bureaus: "管理机构",
     lengthKm: "资料里程",
     statusCode: "线路状态",
@@ -464,11 +479,11 @@ async function article() {
           ["铁路等级", r.grade],
           ["里程统计范围", r.lengthScope],
           ["相关管理机构", (r.bureaus || []).join("、")],
-          ["资料状态", qualityLabels[r.quality] || r.quality],
+          ["资料状态", r.extensions?.verification && r.quality === "已核实" && r.extensions.verification.remaining.length ? "主要字段已核实，细项见下方核验记录" : qualityLabels[r.quality] || r.quality],
           ["更新时间", r.updatedAt]
         ]) +
         (r.stationRefs.length ? '<p><a class="context-link" href="#stations">查看沿线 ' + r.stationRefs.length + ' 座车站</a></p>' : '') +
-        (r.notes ? note(r.notes) : "") +
+        (r.notes ? note(r.notes) : "") + verificationHistory(r.extensions?.verification) +
         management(r) + '<div id="line-checklist"></div>' +
         (r.extensions?.operatingRoutes?.length ? "<h3>组成线路</h3>" + r.extensions.operatingRoutes.map(branch => {
           const stations = r.stationRefs;

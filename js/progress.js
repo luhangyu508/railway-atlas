@@ -89,3 +89,15 @@ readData("catalog/passenger-network.json").then(data=>{
   q("#network-count").textContent="客运线路清单共 "+fmt(data.stats.entries)+" 项，分属 "+fmt(data.stats.groups)+" 个原始分组。其中 "+
     fmt(data.stats.atlasLines)+" 条独立线路已关联地图百科。";
 }).catch(()=>{q("#network-count").textContent="本批清单统计暂时无法读取。";});
+
+atlasManifest().then(async (manifest) => {
+  if (!manifest.verification) return;
+  const data = await atlasRead(manifest.verification);
+  const box = q("#verification");
+  q("#verification-summary").textContent = data.checkedAt + " 核验 " + fmt(data.lines.length) + " 条线路，补入 " +
+    fmt(data.geometrySections) + " 个区段的实际轨迹。每条记录列出新增事实、依据和仍缺的资料。";
+  q("#verification-lines").innerHTML = data.lines.map((row) =>
+    '<a class="related-entry" href="' + recordLink(row.id) + '#verification"><b>' + esc(row.name) +
+    '</b><small>' + esc(row.added[0]) + '</small></a>').join("");
+  box.hidden = false;
+}).catch(() => {});

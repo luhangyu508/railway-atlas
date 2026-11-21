@@ -2,7 +2,7 @@ mountHeader("book");
 async function station() {
   const id = new URLSearchParams(location.search).get("id");
   const [network, rows] = await Promise.all([atlasRead("network.json"), atlasIndex()]);
-  const stop = network.stations.find((s) => s.id === id);
+  const stop = network.stations.find((s) => s.id === (network.stationRedirects?.[id] || id));
   if (!stop) {
     q("#station").innerHTML =
       '<h1>未找到车站档案</h1><a class="context-link" href="catalog.html">浏览线路图鉴</a>';
