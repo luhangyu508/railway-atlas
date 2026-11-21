@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="城西站附近已测绘轨道">
+<title>城西站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-0.0 282.34 L283.72 282.29 L303.45 280.35 L321.48 277.72 L341.27 272.73 L363.1 265.5 L441.7 228.6 L509.81 195.81 L534.13 186.85 L559.71 179.2 L595.26 175.17 L628.96 175.51 L667.52 180.7 L701.5 191.35 L733.3 204.63 L760.01 219.48 L777.42 231.55 L793.76 245.27 L809.83 261.85 L824.45 279.69 L839.4 300.82 L880.0 365.09 M-0.0 285.03 L283.72 284.98 L303.48 283.09 L321.62 280.41 L341.63 275.4 L363.7 268.12 L442.65 231.13 L510.89 198.28 L535.02 189.39 L560.24 181.85 L595.4 177.86 L628.78 178.2 L666.95 183.34 L700.53 193.87 L732.05 207.02 L758.45 221.68 L775.77 233.88 L791.86 247.2 L807.88 263.73 L822.29 281.31 L837.19 302.26 L880.0 369.72" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">城西站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

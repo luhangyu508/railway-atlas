@@ -4,8 +4,15 @@ q("#search-icon").innerHTML = icon("search", 16);
 async function openCatalog() {
   const params = new URLSearchParams(location.search);
   q("#catalog-search").value = params.get("q") || "";
-  const rows = await atlasIndex();
-  const manifest = await atlasManifest();
+  const [rows, manifest, trunks] = await Promise.all([
+    atlasIndex(), atlasManifest(), readData("catalog/passenger-trunks.json").catch(() => ({ lines: [] }))
+  ]);
+  const trunkOrder = new Map(trunks.lines.map((line, index) => [line.id, index]));
+  function catalogRank(row) {
+    const operating = row.statusCode === "operating" || row.statusCode === "partial";
+    if (!operating || row.role !== "trunk") return trunkOrder.size + 1;
+    return trunkOrder.get(row.id) ?? trunkOrder.size;
+  }
   const form = q("#catalog-options");
   const select = q("#nature");
   select.innerHTML =
@@ -48,13 +55,14 @@ async function openCatalog() {
       .join(" ")
       .toLocaleLowerCase()
   }));
+  const mainlinesFirst = [...indexed].sort((a, b) => catalogRank(a.row) - catalogRank(b.row));
   function draw() {
     const term = q("#catalog-search").value.trim().toLocaleLowerCase();
     q("#catalog-national").href = "national.html" + (term ? "?q=" + encodeURIComponent(term) : "");
     q("#catalog-track").href = "tracks.html" + (term ? "?q=" + encodeURIComponent(term) : "");
     q("#catalog-reference").href = "line-parameters.html?q=" + encodeURIComponent(term);
     const history = q("#history-only").checked;
-    const matches = indexed.filter(
+    const matches = (term ? indexed : mainlinesFirst).filter(
       ({ row, text }) =>
         (!select.value || row.type === select.value) &&
         (!states.value || states.value === row.statusCode) &&

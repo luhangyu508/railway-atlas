@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="亳州南站附近已测绘轨道">
+<title>亳州南站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M401.2 462.67 L396.9 356.98 L382.12 107.26 L378.96 56.57 L377.83 32.17 L376.34 -0.0 M366.36 -0.0 L366.77 9.28 L368.31 44.28 L371.9 100.08 L387.6 384.74 L392.58 475.64 L392.61 476.0 M377.83 32.17 L385.61 90.27 L391.92 132.08 L400.22 278.36 L404.53 340.83 L403.87 364.74 L401.88 397.61 L401.38 458.42 L401.2 462.67 L400.63 476.0 M392.58 475.64 L386.44 425.56 L379.75 356.08 L366.21 119.95 L365.87 87.84 L366.45 36.9 L366.77 9.28 M366.45 36.9 L364.53 61.98 L362.03 88.73 M386.44 425.56 L389.66 476.0" stroke="#aa622b" stroke-width="1.65"/><path d="M339.1 12.97 L340.69 45.41 M340.69 45.41 L352.75 291.52 L362.64 476.0 M342.56 45.32 L354.62 291.42 L364.52 476.0 M340.98 12.88 L342.56 45.32 M338.47 -0.0 L339.1 12.97 M340.35 -0.0 L340.98 12.88 M393.89 476.0 L391.16 407.15 L370.4 -0.0 M399.28 476.0 L373.42 -0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">亳州南站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

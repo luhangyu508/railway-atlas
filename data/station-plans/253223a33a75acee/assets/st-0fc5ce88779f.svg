@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="云浮东站附近已测绘轨道">
+<title>云浮东站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M690.27 213.76 L775.68 234.41 L783.75 236.37 L799.97 241.85 L822.97 251.69 L847.78 266.1 L867.58 277.15 L880.0 281.99 M870.54 287.1 L821.51 276.59 L778.5 273.05 L727.9 260.64 L702.1 252.98 L681.11 248.08 L656.91 243.57 L596.13 231.82 L537.54 221.67 L423.73 205.26 L492.75 215.6 L308.62 192.03" stroke="#aa622b" stroke-width="1.65"/><path d="M0.0 178.25 L48.01 183.12 M48.01 183.12 L319.23 218.5 L627.95 258.52 L870.54 287.1 L880.0 288.6 M47.15 188.39 L0.0 183.55 M880.0 295.21 L626.75 264.69 L319.59 223.88 L47.15 188.39" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">云浮东站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

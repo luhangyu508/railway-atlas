@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="资中北站附近已测绘轨道">
+<title>资中北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M281.43 77.98 L305.54 98.75 L327.62 118.95 M322.0 124.71 L574.26 369.34 L626.42 416.47 M196.72 0.0 L218.05 18.48 L232.91 30.78 M564.53 346.99 L608.56 394.83 M279.94 79.52 L308.53 110.76 L322.0 124.71 M327.62 118.95 L343.45 133.81 L526.7 309.41 L538.99 321.71 L564.53 346.99 L610.58 391.35 L653.01 435.79 M687.55 476.0 L680.5 467.8" stroke="#aa622b" stroke-width="1.65"/><path d="M279.94 79.52 L324.08 122.38 M648.76 439.9 L684.69 476.0 M324.08 122.38 L626.42 416.47 L648.76 439.9 M196.68 0.0 L279.94 79.52 M325.7 120.49 L608.56 394.83 L627.87 414.9 L651.02 437.82 M281.43 77.98 L325.7 120.49 M201.27 0.0 L232.91 30.78 L281.43 77.98 M651.02 437.82 L680.5 467.8 L689.03 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">资中北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

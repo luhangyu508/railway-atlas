@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="扶余北站附近已测绘轨道">
+<title>扶余北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M416.41 392.07 L430.26 369.16 L439.03 350.32 L506.59 198.19 M492.61 273.77 L480.05 302.96 L468.57 325.09 L455.67 343.87 L430.48 373.26 M375.06 450.69 L387.78 431.05 L416.41 392.07 L430.48 373.26 L454.25 341.5 L466.3 323.33 L477.17 302.4 L490.01 272.81 M394.57 406.73 L375.06 450.69 L363.82 476.0 M549.87 40.17 L527.29 84.42 L386.28 402.85 L367.98 452.35 M370.53 453.27 L394.57 406.73 L536.12 83.91 L552.33 41.31" stroke="#aa622b" stroke-width="1.65"/><path d="M387.06 415.31 L552.33 41.31 L570.58 -0.0 M384.57 414.24 L549.87 40.17 L567.62 -0.0 M360.63 476.0 L370.53 453.27 L387.06 415.31 M357.68 476.0 L367.98 452.35 L384.57 414.24" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">扶余北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

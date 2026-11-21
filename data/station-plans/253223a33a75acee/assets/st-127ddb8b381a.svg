@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="滦河站附近已测绘轨道">
+<title>滦河站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M131.69 216.74 L197.55 217.86 L263.52 221.85 L585.28 239.73 L672.23 248.75 M204.11 223.48 L289.33 232.49 L583.82 250.01 L670.22 251.46 M22.8 212.96 L97.03 214.44 M702.27 250.85 L779.84 258.88 M263.52 221.85 L209.34 214.91 L135.48 209.66 L98.15 206.93 L65.11 202.87 L13.14 194.77 L-0.0 193.55 M135.48 209.66 L164.86 209.63 L199.76 209.25" stroke="#aa622b" stroke-width="1.65"/><path d="M672.23 248.75 L702.27 250.85 L880.0 262.77 M880.0 265.54 L779.84 258.88 L670.22 251.46 L204.11 223.48 M131.69 216.74 L672.23 248.75 M-0.0 208.16 L97.03 214.44 L131.69 216.74 M204.11 223.48 L22.8 212.96 L-0.0 211.46" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">滦河站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

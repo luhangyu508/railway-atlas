@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="长宁站附近已测绘轨道">
+<title>长宁站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M775.97 469.19 L786.52 476.0 M92.04 0.0 L144.38 38.19 M570.05 321.92 L657.9 381.93 M271.53 121.25 L290.22 132.94 L310.41 145.09 L324.16 153.95 L570.05 321.92 L632.65 367.93 M223.81 91.91 L243.64 106.38 L263.72 121.66 L279.34 133.11 L288.44 139.29 L319.68 160.63 L565.32 328.42 L575.6 335.26 L631.09 370.12" stroke="#aa622b" stroke-width="1.65"/><path d="M722.28 429.16 L790.65 476.0 M92.72 0.0 L225.33 89.7 L271.53 121.25 L632.65 367.93 L722.28 429.16 M720.79 431.39 L775.97 469.19 L785.91 476.0 M87.93 0.0 L144.38 38.19 L223.81 91.91 L631.09 370.12 L720.79 431.39" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">长宁站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

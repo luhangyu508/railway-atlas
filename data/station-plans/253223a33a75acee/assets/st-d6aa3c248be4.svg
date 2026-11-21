@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="琚湾站附近已测绘轨道">
+<title>琚湾站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M75.71 36.35 L104.29 56.09 M125.31 68.18 L157.5 83.52 M145.53 83.23 L194.14 111.23 L669.63 385.24 L690.57 397.4 L700.59 402.59 L734.99 419.94 M745.44 425.97 L784.2 444.73 M812.4 460.73 L833.48 476.0 M768.77 432.89 L723.68 406.91 L227.85 121.16 L216.58 114.81 L191.53 103.14 M168.94 93.3 L194.14 111.23 M723.68 406.91 L748.25 424.01" stroke="#aa622b" stroke-width="1.65"/><path d="M839.33 476.0 L812.4 460.73 L784.2 444.73 L783.06 444.08 L748.25 424.01 L191.53 103.14 L157.5 83.52 L75.71 36.35 L12.68 -0.0 M6.73 -0.0 L104.29 56.09 L125.31 68.18 L155.21 85.38 L168.94 93.3 L734.99 419.94 L745.44 425.97 L832.14 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">琚湾站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

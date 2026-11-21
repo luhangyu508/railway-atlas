@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="贵定北站附近已测绘轨道">
+<title>贵定北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M38.67 268.79 L107.66 259.35 L160.82 253.25 L180.55 250.91 L192.63 249.47 L220.22 248.31 L239.87 248.45 L315.21 244.24 L559.95 242.93 L600.9 241.93 L620.52 241.14 L648.54 236.82 M673.23 236.45 L712.01 232.38 M180.55 250.91 L228.97 251.2 M239.87 248.45 L192.8 243.64" stroke="#aa622b" stroke-width="1.65"/><path d="M126.75 244.63 L0.0 247.68 M317.65 241.78 L192.8 243.64 L126.75 244.63 M800.89 234.53 L673.23 236.45 L648.54 236.82 L341.71 241.42 M341.71 241.42 L317.65 241.78 M880.0 233.35 L800.89 234.53 M126.7 241.15 L317.59 238.29 M800.84 231.05 L880.0 229.86 M341.66 237.93 L712.01 232.38 L800.84 231.05 M317.59 238.29 L341.66 237.93 M0.0 244.03 L126.7 241.15" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">贵定北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

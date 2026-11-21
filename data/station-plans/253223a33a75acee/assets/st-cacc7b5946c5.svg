@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="南漳站附近已测绘轨道">
+<title>南漳站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M95.02 236.72 L173.82 237.25 M208.35 233.38 L245.61 229.88 L270.84 228.24 L608.7 218.12 L637.44 218.26 L674.31 219.62 M747.03 220.72 L827.17 215.11 M717.13 221.58 L629.88 227.36 L272.43 237.59 L246.42 237.44 L208.34 236.26 M746.3 224.03 L629.88 227.36" stroke="#aa622b" stroke-width="1.65"/><path d="M880.0 216.94 L856.71 217.55 M856.71 217.55 L747.03 220.72 L717.13 221.58 L208.34 236.26 L192.79 236.71 M856.63 214.24 L827.17 215.11 L674.31 219.62 L208.35 233.38 L192.78 233.84 M192.78 233.84 L95.02 236.72 L23.18 238.91 M192.79 236.71 L173.82 237.25 L23.24 241.59 M23.24 241.59 L-0.0 241.8 M23.18 238.91 L-0.0 239.1 M856.63 214.24 L880.0 213.69" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">南漳站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

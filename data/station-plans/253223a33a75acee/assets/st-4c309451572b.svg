@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="三穗站附近已测绘轨道">
+<title>三穗站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M563.88 71.81 L374.06 272.29 L307.27 336.09 L266.37 385.25 M569.27 78.78 L314.36 346.16 L304.32 355.69 L285.31 371.73 M212.95 450.2 L237.79 417.15 M281.02 383.02 L258.45 411.96 L230.36 449.29 L210.73 470.49 M324.96 341.52 L290.72 372.84 L281.02 383.02 L192.51 476.0 M314.36 346.16 L290.72 372.84 M626.24 13.97 L569.27 78.78 M623.61 11.35 L563.88 71.81" stroke="#aa622b" stroke-width="1.65"/><path d="M639.81 0.0 L626.24 13.97 L567.08 75.75 M567.08 75.75 L285.31 371.73 L212.95 450.2 L187.08 476.0 M565.63 73.96 L623.61 11.35 L634.7 0.0 M181.33 476.0 L237.79 417.15 L266.37 385.25 L396.98 250.84 L565.63 73.96" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">三穗站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="后吕村站附近已测绘轨道">
+<title>后吕村站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M430.59 476.0 L430.62 467.22 L430.27 451.9 L430.05 437.27 M433.0 424.18 L434.07 411.6 L435.76 398.39 L437.14 388.16 L438.13 377.81 L438.53 366.81 L438.62 364.35 L440.23 324.64 L444.85 211.06 L451.65 44.14 L451.91 34.22 L451.79 23.41 L451.17 8.6 L451.18 -0.0 M430.5 426.75 L430.44 412.67 L429.82 398.84 L429.58 387.04 L437.04 210.52 L443.7 53.18 L444.17 41.63 L444.8 33.91 L446.33 20.88 L447.42 11.94 L448.33 -0.0" stroke="#aa622b" stroke-width="1.65"/><path d="M430.05 437.27 L430.5 426.75 L448.43 -0.0 M450.97 -0.0 L448.98 44.4 L433.0 424.18 L430.88 476.0 M428.46 476.0 L430.05 437.27" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">后吕村站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

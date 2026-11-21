@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="邯郸东站附近已测绘轨道">
+<title>邯郸东站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M391.33 449.24 L391.6 364.32 L389.2 116.94 L388.54 20.18 M391.33 449.24 L384.93 373.94 L383.84 362.72 L382.65 116.49 L386.25 62.28 L388.54 20.18 L389.36 -0.0 M386.25 62.28 L385.54 34.53 L384.92 6.78 L384.84 2.75 M403.26 454.7 L402.46 476.0 M401.75 35.91 L406.16 116.87 L408.59 366.44 L403.26 454.7 M401.75 35.91 L410.27 106.15 L410.85 117.06 L412.15 366.05 L409.88 394.45 L403.26 454.7 M391.66 476.0 L391.33 449.24 M397.39 -0.0 L401.94 365.96 L401.93 476.0 M399.39 -0.0 L401.75 35.91" stroke="#aa622b" stroke-width="1.65"/><path d="M394.82 -0.0 L397.95 476.0 M395.16 476.0 L391.7 -0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">邯郸东站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

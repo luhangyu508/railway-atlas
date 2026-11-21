@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="万达广场附近已测绘轨道">
+<title>万达广场附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M181.43 476.0 L193.58 467.68 L207.88 455.52 L221.6 443.98 L244.73 422.59 L255.68 412.16 L264.72 402.77 L280.44 384.97 L291.85 371.85 L316.79 343.86 L333.14 325.83 L339.86 318.49 L346.59 312.21 L356.91 303.48 L369.96 293.3 L394.51 274.09 L440.0 238.0 L465.68 217.62 M465.68 217.62 L533.56 170.42 L553.83 156.78 L586.11 137.31 M586.11 137.31 L709.93 62.75 L741.71 43.52 L779.45 20.89 L805.78 4.98 M805.78 4.98 L814.09 0.0" stroke="#4c6870" stroke-width="1.65"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">万达广场</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#4c6870" stroke-width="3"/><text x="45" y="464">用途未标注</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

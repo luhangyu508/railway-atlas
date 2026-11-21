@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="符离集站附近已测绘轨道">
+<title>符离集站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M394.61 476.0 L395.51 470.43 M405.1 476.0 L413.02 450.62 M433.28 380.67 L416.51 435.83 M399.77 476.0 L403.51 454.82 M525.02 -0.0 L523.6 8.81 L516.93 64.13 M406.23 443.2 L411.59 409.54 L415.53 390.75 L497.93 40.21 L503.44 16.76 L505.16 9.48 L507.39 -0.0 M495.8 61.97 L503.44 16.76 M505.16 9.48 L506.62 -0.0" stroke="#aa622b" stroke-width="1.65"/><path d="M521.85 -0.0 L520.28 6.92 L433.28 380.67 M416.51 435.83 L413.02 450.62 L407.02 476.0 M403.51 454.82 L406.23 443.2 L495.8 61.97 L510.36 -0.0 M433.28 380.67 L411.7 473.43 L411.06 476.0 M516.0 -0.0 L468.97 199.76 L445.75 312.0 L416.51 435.83 M398.53 476.0 L403.51 454.82 M401.12 476.0 L513.13 -0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">符离集站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

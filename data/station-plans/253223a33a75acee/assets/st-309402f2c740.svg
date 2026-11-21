@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="祥谦站附近已测绘轨道">
+<title>祥谦站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-0.0 183.76 L27.27 193.87 L56.34 202.94 L86.71 210.95 L116.72 216.97 L128.52 218.91 L143.63 221.0 L162.74 223.27 L182.64 225.17 L204.44 226.76 L446.78 240.94 L665.78 253.75 L703.05 256.62 L754.86 261.66 L796.17 267.56 L864.17 277.85 M866.89 264.56 L823.37 260.79 L800.78 259.07 L780.53 257.77 L446.84 238.24 L201.49 223.88 L182.04 222.35 L162.56 220.49 L144.56 218.51 L128.02 216.18 L116.98 214.27 L87.07 208.26 L56.78 200.49 L27.76 191.41 L-0.0 180.95 M880.0 265.71 L866.89 264.56 M864.17 277.85 L880.0 280.28" stroke="#4c6870" stroke-width="1.65"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">祥谦站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#4c6870" stroke-width="3"/><text x="45" y="464">用途未标注</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>
