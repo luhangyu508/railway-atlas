@@ -148,20 +148,6 @@
       "id": "hs-hefu"
     },
     {
-      "id": "hs-jingzhang",
-      "services": [
-        {
-          "number": "G8811",
-          "date": "2019-12-30",
-          "path": "北京北至太子城，经京张高铁及崇礼铁路。",
-          "source": {
-            "title": "北京市纪委监委网站《百年京张：从争气路到先行路》",
-            "url": "https://www.bjsupervision.gov.cn/ywyl/201912/t20191230_67259.html"
-          }
-        }
-      ]
-    },
-    {
       "id": "hs-yinxi"
     },
     {
@@ -274,7 +260,18 @@
       "passengerSource": {
         "title": "京张与张呼高铁贯通，呼包开行进京列车",
         "url": "https://www.nm.jcy.gov.cn/xwzx/qnyw/201912/t20191230_2749979.shtml"
-      }
+      },
+      "services": [
+        {
+          "number": "G8811",
+          "date": "2019-12-30",
+          "path": "北京北至太子城，经京张高铁及崇礼铁路。",
+          "source": {
+            "title": "北京市纪委监委网站《百年京张：从争气路到先行路》",
+            "url": "https://www.bjsupervision.gov.cn/ywyl/201912/t20191230_67259.html"
+          }
+        }
+      ]
     },
     {
       "id": "hs-ganruilong",
@@ -746,6 +743,97 @@
       "passengerSource": {
         "title": "内蒙古年鉴 · 历史京包线里程",
         "url": "https://www.nmgqq.com.cn/shuzishizhi/nianjian/neimengguniajian/2018juan/jiaotongyouzheng/2020-02-15/17994.html"
+      }
+    },
+    {
+      "id": "rail-handan",
+      "passengerSource": {
+        "title": "汉丹铁路建设与通车历史",
+        "url": "https://m.cnhubei.com/content/2019-08/29/content_12301412.html"
+      }
+    },
+    {
+      "id": "rail-xikang",
+      "passengerSource": {
+        "title": "新建西安至安康高速铁路环境影响报告书（既有西康线概况）",
+        "url": "https://www.mee.gov.cn/ywgz/hjyxpj/jsxmhjyxpj/xmslqk/201811/W020240614540326391461.pdf"
+      }
+    },
+    {
+      "id": "rail-baozhong",
+      "passengerSource": {
+        "title": "宝中铁路平凉至中卫段增建二线工程环境影响报告书（既有铁路标准与里程）",
+        "url": "https://sthjt.nx.gov.cn/zwgk/hjpj_63348/hjyxpjsl/202408/P020240826813110315896.pdf"
+      }
+    },
+    {
+      "id": "hs-lianzhen",
+      "passengerSource": {
+        "title": "连淮扬镇铁路淮镇段暨五峰山长江大桥开通运营新闻发布会",
+        "url": "https://gjzx.jschina.com.cn/PressConference/20286/202012/t20201214_6912327.shtml"
+      }
+    },
+    {
+      "id": "hs-baoyin",
+      "passengerSource": {
+        "title": "包银高铁全线开通运营",
+        "url": "https://www.crecg.com/web/xwzx61/gsyw87/2025122910263942989/index.html"
+      }
+    },
+    {
+      "id": "int-changhun",
+      "passengerSource": {
+        "title": "长珲城际铁路开通运营十周年",
+        "url": "https://news.cnjiwang.com/jwyc/202509/3980937.html"
+      }
+    },
+    {
+      "id": "rail-fuxia-2010",
+      "passengerSource": {
+        "title": "福厦铁路开通十周年：首班列车的运营记录",
+        "url": "https://fj.people.com.cn/n2/2020/0430/c181466-33988228.html"
+      }
+    },
+    {
+      "id": "rail-xiashen",
+      "passengerSource": {
+        "title": "福建省已开通运营项目基本情况",
+        "url": "https://fgw.fj.gov.cn/ztzl/tljsbgs/fjstlfzqk/fjtlfzgk/202401/t20240118_6382963.htm"
+      }
+    },
+    {
+      "id": "rail-nanlong",
+      "passengerSource": {
+        "title": "南平至龙岩铁路29日开通运营",
+        "url": "https://fgw.fujian.gov.cn/ztzl/tljsbgs/fjstlfzqk/fjtljscg/201812/t20181229_4728706.htm"
+      }
+    },
+    {
+      "id": "rail-quning",
+      "passengerSource": {
+        "title": "衢宁铁路开通运营",
+        "url": "https://wap.sasac.gov.cn/n2588025/n2588124/c15550038/content.html"
+      }
+    },
+    {
+      "id": "hs-huning-yanjiang",
+      "passengerSource": {
+        "title": "沪宁沿江高铁开通运营及全线设站情况",
+        "url": "https://www.nanjing.gov.cn/zzb/ywdt/msxx/202309/t20230928_5125870.html"
+      }
+    },
+    {
+      "id": "hs-hangwen",
+      "passengerSource": {
+        "title": "杭温高铁开通运营_国家铁路局",
+        "url": "https://source.nra.gov.cn/xwzx/tpsp/spxx/202409/t20240906_346730.shtml"
+      }
+    },
+    {
+      "id": "hs-hexin",
+      "passengerSource": {
+        "title": "合新高铁合泗段开通运营_国家铁路局",
+        "url": "https://www.nra.gov.cn/xwzx/tpsp/tpxx/202512/t20251230_350326.shtml"
       }
     }
   ]

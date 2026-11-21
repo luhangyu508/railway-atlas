@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="瑶溪站附近已测绘轨道">
+<title>瑶溪站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M511.1 0.0 L507.32 12.21 L504.63 21.6 L498.58 44.07 L496.03 53.57 L492.08 66.53 L485.68 84.84 L474.47 122.13 L471.92 131.39 L469.38 141.22 L460.58 170.55 L457.05 182.39 L453.35 194.34 L440.0 238.0 L436.81 248.44 L425.55 285.64 L412.83 324.24 L410.83 331.08 L407.91 342.47 L403.35 358.6 L402.11 363.53 L401.11 367.65 L394.54 393.39 L389.26 411.81 L387.53 419.79 L385.85 427.44 L384.52 434.52 L383.57 439.26 L382.98 442.82 L382.25 447.34 L381.58 453.73 L380.58 463.21 L379.61 475.25 L379.57 476.0" stroke="#4c6870" stroke-width="1.65"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">瑶溪站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#4c6870" stroke-width="3"/><text x="45" y="464">用途未标注</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

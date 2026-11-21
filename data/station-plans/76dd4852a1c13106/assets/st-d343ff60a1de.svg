@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="桐城站附近已测绘轨道">
+<title>桐城站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M611.65 0.0 L572.0 74.28 L521.52 168.79 L436.07 328.39 L421.54 353.52 L406.63 376.4 L393.82 396.62 L376.24 423.7 M351.32 476.0 L357.49 464.63 L383.06 416.77 L393.82 396.62 M388.79 399.66 L401.29 371.51 L432.45 313.05 L554.5 88.23 L601.65 0.0 M383.06 416.77 L396.71 398.89 L404.33 391.7 L417.19 378.3 L425.15 368.05 L435.17 352.03 L442.03 338.74 L496.59 232.69 L504.33 213.62 L513.92 187.65 L521.52 168.79 M357.49 464.63 L372.59 445.13 L391.99 427.37 L508.91 335.52 M356.32 461.01 L350.01 476.0" stroke="#aa622b" stroke-width="1.65"/><path d="M348.16 476.0 L356.32 461.01 L376.24 423.7 L388.79 399.66 L475.67 239.04 L536.31 126.94 L604.3 0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">桐城站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

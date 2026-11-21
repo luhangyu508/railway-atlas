@@ -14,11 +14,11 @@ async function showStationPlans(stop) {
     const article = record.article ? sourceLink({title:"维基百科 · " + record.article.title, url:record.article.url}) : "";
     const facts = (record.facts || []).map(f => '<span>' + esc(f.label) + ' <b>' + esc(f.value) + '</b></span>').join("");
     const stationFacts = facts ? '<div class="station-plan-facts">' + facts + '</div>' : "";
-    if (!plans.length) {
-      const review = record.review;
-      const reviewHTML = review ? '<p>' + esc(review.text) + '</p><p class="subtle-note">' +
+    const review = record.review;
+    const reviewHTML = review ? '<p>' + esc(review.text) + '</p><p class="subtle-note">' +
         sourceLink({title:review.sourceLabel,url:review.sourceUrl}) +
         (review.relatedStationId ? ' · <a href="' + stationLink(review.relatedStationId) + '#station-plans">' + esc(review.relatedLabel) + '</a>' : '') + '</p>' : '';
+    if (!plans.length) {
       content.innerHTML = '<p>本站尚无可核实的站场配线图。</p>' + reviewHTML + stationFacts +
         (article ? '<p class="subtle-note">' + article + '</p>' : "");
       return record.position;
@@ -31,7 +31,7 @@ async function showStationPlans(stop) {
     }
     const choices = plans.map((p,i) => '<button type="button" data-plan="' + i + '" aria-pressed="' +
       (i === 0) + '">' + esc(choiceLabel(p)) + '</button>').join("");
-    content.innerHTML = (plans.length > 1 ? '<div class="plan-switch" role="group" aria-label="选择图件">' + choices + '</div>' : '') +
+    content.innerHTML = reviewHTML + (plans.length > 1 ? '<div class="plan-switch" role="group" aria-label="选择图件">' + choices + '</div>' : '') +
       '<figure class="plan-figure"><button class="plan-preview" type="button" aria-label="放大车站图件"><img alt=""><span>放大查看</span></button>' +
       '<figcaption></figcaption></figure>' + stationFacts + (article ? '<p class="subtle-note">' + article + '</p>' : '') +
       '<dialog class="plan-dialog" aria-label="车站图件大图"><div class="plan-toolbar"><strong></strong>' +

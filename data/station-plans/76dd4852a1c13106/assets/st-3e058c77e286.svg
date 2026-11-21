@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="庆城站附近已测绘轨道">
+<title>庆城站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M469.07 322.69 L526.5 459.02 L529.78 476.0 M465.61 324.15 L523.04 460.48 L528.37 476.0 M501.83 462.29 L497.56 445.21 L372.23 135.82 L337.08 57.68 M511.52 476.0 L508.42 468.5 L497.56 445.21 M535.67 476.0 L535.33 469.66 L531.71 446.12 L527.95 432.15 L516.83 406.67 L503.64 374.56 M500.4 375.88 L513.59 408.0 L522.65 430.21 L527.05 447.67 L530.15 462.42 L532.4 476.0" stroke="#aa622b" stroke-width="1.65"/><path d="M310.78 -0.0 L430.81 299.38 L499.1 463.4 L504.44 476.0 M507.63 476.0 L501.83 462.29 L433.53 298.27 L337.08 57.68 L313.95 -0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">庆城站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="洋县西站附近已测绘轨道">
+<title>洋县西站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M632.92 169.25 L587.06 176.38 L566.94 180.36 L554.11 183.76 L232.26 259.83 L182.38 273.75 M212.39 269.29 L256.75 262.85 L268.89 260.29 L575.08 187.85 L618.26 175.39 M142.55 293.58 L94.22 314.62 L77.9 321.11 L63.54 325.9 L47.79 330.36 L15.73 338.07 M256.75 262.85 L206.86 272.96 L183.52 278.48 L160.0 286.01 L142.55 293.58 M142.55 293.58 L126.68 299.6 L110.45 304.55 L92.92 308.69 L-0.0 330.55 M85.33 298.69 L61.98 301.68 M739.41 144.12 L705.54 155.13 M183.52 278.48 L195.33 276.57 L243.04 271.75" stroke="#aa622b" stroke-width="1.65"/><path d="M818.64 125.42 L739.41 144.12 L632.92 169.25 L182.38 273.75 L61.98 301.68 L-0.0 316.06 M818.64 125.42 L880.0 110.78 M819.46 128.67 L705.54 155.13 L634.33 171.67 L618.26 175.39 L212.39 269.29 L85.33 298.69 L-0.0 318.44 M880.0 114.27 L819.46 128.67" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">洋县西站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

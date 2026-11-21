@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="红光镇站附近已测绘轨道">
+<title>红光镇站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M880.0 414.04 L866.94 412.58 L839.28 411.17 L777.38 408.23 L761.1 407.46 L740.23 405.85 L719.67 403.16 L705.97 400.61 L692.91 397.75 L678.8 394.05 L661.69 387.83 L643.47 380.65 L625.41 372.38 L611.02 365.09 L596.32 357.17 L573.54 343.85 L551.68 327.79 L530.76 312.05 L438.77 238.97 L329.84 152.42 L229.34 73.26 L137.27 0.0 M143.24 0.0 L188.53 35.63 L332.1 151.09 L440.8 237.16 L529.38 307.3 L572.34 339.84 L585.77 348.52 L599.2 355.79 L613.88 364.0 L629.52 371.42 L645.95 378.38 L668.54 386.75 L693.17 394.48 L710.07 398.28 L722.55 400.49 L738.82 402.55 L763.46 404.28 L791.73 406.17 L837.22 408.55 L860.44 409.49 L880.0 411.13" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">红光镇站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="绍兴东站附近已测绘轨道">
+<title>绍兴东站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M658.5 266.94 L616.45 261.19 L578.05 253.26 L343.72 201.64 L282.25 186.85 L263.78 180.44 M208.44 165.96 L267.26 174.73 M209.32 162.24 L231.48 164.8 L263.69 167.71 M42.93 113.93 L93.37 126.22 L108.5 130.39 L120.72 134.81 L160.21 147.42 M13.04 116.39 L78.14 129.13 L154.21 145.96 L160.21 147.42 L189.58 156.9 L209.32 162.24 L235.29 167.77 L267.26 174.73 L307.94 183.51 L623.69 252.96 L676.09 267.78 M42.48 116.74 L78.42 125.8 L97.75 129.69 L102.8 131.35 L120.72 134.81" stroke="#aa622b" stroke-width="1.65"/><path d="M0.0 122.29 L208.44 165.96 L350.09 197.21 L437.08 215.7 L601.83 250.72 L676.09 267.78 L880.0 311.71 M880.0 314.91 L658.5 266.94 L601.15 253.78 L349.41 200.27 L263.78 180.44 L202.84 167.42 L0.0 125.39" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">绍兴东站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

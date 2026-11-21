@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="柳市东站附近已测绘轨道">
+<title>柳市东站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M189.59 219.41 L165.6 218.07 L144.26 217.71 L123.21 218.7 L110.58 219.77 L91.99 222.25 L77.3 224.37 L60.97 227.35 L34.89 234.23 L1.32 244.99 L-0.0 245.52 M880.0 138.93 L855.83 161.96 L834.76 177.86 L810.29 194.04 L799.52 200.51 L788.25 206.98 L757.82 220.93 L744.09 226.42 L730.87 231.13 L712.92 236.41 L697.53 240.11 L681.3 243.59 L663.85 246.2 L651.31 247.53 L640.06 248.52 L619.98 249.15 L610.13 249.08 L589.81 248.59 L574.23 247.74 L539.37 245.37 L440.0 238.0 L189.59 219.41" stroke="#4c6870" stroke-width="1.65"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">柳市东站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#4c6870" stroke-width="3"/><text x="45" y="464">用途未标注</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

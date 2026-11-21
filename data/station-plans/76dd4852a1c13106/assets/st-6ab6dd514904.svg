@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="赵甸站附近已测绘轨道">
+<title>赵甸站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M377.03 308.22 L348.26 254.82 M343.56 -0.0 L555.53 473.23 L556.78 476.0 M555.53 473.23 L556.57 476.0 M546.53 476.0 L332.94 -0.0 M543.29 476.0 L329.86 -0.0 M294.15 111.46 L368.9 271.14 M291.23 112.66 L361.72 274.05" stroke="#aa622b" stroke-width="1.65"/><path d="M336.33 -0.0 L549.71 475.93 L549.74 476.0 M244.26 -0.0 L294.15 111.46 L366.76 271.93 L458.71 476.0 M240.94 -0.0 L291.23 112.66 L363.9 273.66 L434.99 428.92 L455.95 476.0 M553.3 476.0 L552.92 475.15 L339.68 -0.0 M368.9 271.14 L461.47 476.0 M450.51 476.0 L441.48 453.33 L405.19 371.23 L377.03 308.22 L361.72 274.05 M361.72 274.05 L300.95 141.47 M368.9 271.14 L309.6 137.48" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">赵甸站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

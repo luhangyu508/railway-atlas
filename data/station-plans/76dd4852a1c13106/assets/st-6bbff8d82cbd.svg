@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="抚州东站附近已测绘轨道">
+<title>抚州东站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M201.98 207.79 L273.78 209.91 M240.62 202.46 L289.92 201.47 L309.35 201.96 L645.25 216.4 L710.79 221.65 M645.25 216.4 L710.94 218.75 M676.72 223.21 L633.33 223.9 L615.89 224.37 L600.33 224.09 L273.78 209.91 L232.67 206.75 L211.7 204.24 M141.79 201.16 L116.64 198.97 L94.41 197.33 M730.41 226.18 L756.46 225.58 L789.4 225.42 M197.92 207.67 L201.98 207.79" stroke="#aa622b" stroke-width="1.65"/><path d="M880.0 232.02 L730.41 226.18 L676.72 223.21 L211.7 204.24 L206.45 204.02 M190.67 203.56 L141.79 201.16 L0.0 195.3 M206.45 204.02 L190.67 203.56 M0.0 192.78 L94.41 197.33 L190.77 200.6 M206.56 201.07 L240.62 202.46 L710.79 221.65 L789.4 225.42 L880.0 228.98 M190.77 200.6 L206.56 201.07" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">抚州东站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

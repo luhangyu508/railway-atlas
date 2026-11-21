@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="许昌东站附近已测绘轨道">
+<title>许昌东站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M465.02 -0.0 L468.9 36.43 L476.57 74.95 L481.99 97.85 L483.0 104.03 L516.95 342.65 L520.47 403.74 L523.14 436.51 L526.53 476.0 M465.36 -0.0 L474.21 43.88 M521.61 476.0 L513.76 436.42 L510.3 417.05 L502.98 365.54 L499.94 340.83 L467.65 110.26 L460.22 63.16 L454.15 20.24 L451.32 -0.0 M460.68 -0.0 L463.86 19.11 L471.95 77.42 L475.73 105.79 L509.18 341.32 L515.36 384.75 L523.14 436.51 M468.9 36.43 L460.82 -0.0" stroke="#aa622b" stroke-width="1.65"/><path d="M457.12 -0.0 L524.55 476.0 M454.53 -0.0 L522.03 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">许昌东站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

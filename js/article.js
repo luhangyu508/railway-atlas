@@ -441,7 +441,7 @@ function addSectionParameters(line) {
   });
 }
 async function article() {
-  const id = new URLSearchParams(location.search).get("id") || "";
+  const id = resolveLineAddress(await atlasManifest(), "id") || "";
   let r;
   try {
     if (/^[a-zA-Z0-9_-]+$/.test(id)) r = await atlasRead("lines/" + encodeURIComponent(id) + ".json");
@@ -476,8 +476,8 @@ async function article() {
             ["适用范围", r.extensions.mixedTraffic.scope]
           ] : []),
           ["别名", (r.aliases || []).join("、")],
-          ["设计速度", r.designSpeed],
-          ["运营速度", r.operatingSpeed],
+          ["设计速度", typeof r.designSpeed === "number" ? r.designSpeed + " km/h" : r.designSpeed],
+          ["运营速度", typeof r.operatingSpeed === "number" ? r.operatingSpeed + " km/h" : r.operatingSpeed],
           ["铁路等级", r.grade],
           ["里程统计范围", r.lengthScope],
           ["相关管理机构", (r.bureaus || []).join("、")],
@@ -514,9 +514,12 @@ async function article() {
     [
       "sections",
       "已收录区段",
-      r.sections.length
+      (r.namedScopes || []).map(scope => '<div class="related-entry"><a href="' +
+        mapLink + '&amp;scope=' + encodeURIComponent(scope.name) + '">' + esc(scope.name) +
+        '</a><small>' + esc(scope.scope) + '</small></div>').join("") +
+      (r.sections.length
         ? '<div class="section-rows">' + r.sections.map(infoSection).join("") + "</div>"
-        : note("区段资料待补充。")
+        : note("区段资料待补充。"))
     ],
     [
       "history",

@@ -40,7 +40,7 @@ async function openCatalog() {
       row.name.replace("高速铁路", "高铁"),
       row.start,
       row.end,
-      ...row.aliases, ...(row.scopeNames || []),
+      ...row.aliases, ...(row.searchTerms || []), ...(row.scopeNames || []),
       trafficLabel(row),
       ...row.cities,
       ...row.stationNames, ...(row.stationAliases || [])

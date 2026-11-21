@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="武义站附近已测绘轨道">
+<title>武义站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M624.11 408.45 L588.88 368.0 L577.18 349.82 L560.75 324.59 L557.75 320.23 L531.96 294.26 L424.54 179.7 L407.69 163.42 L381.8 143.87 L333.12 94.28 L293.14 56.72 M381.8 143.87 L414.52 179.93 L552.49 326.54 L565.32 339.68 L588.88 368.0 M541.39 216.27 L563.36 316.0 L567.8 323.32 L570.4 332.38 L577.18 349.82" stroke="#aa622b" stroke-width="1.65"/><path d="M239.56 0.0 L259.65 21.78 L293.14 56.72 L447.76 221.85 L471.55 246.64 L547.92 328.41 L567.95 348.6 L624.11 408.45 M624.11 408.45 L637.54 421.7 M637.54 421.7 L656.55 443.32 L679.66 461.41 L708.79 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">武义站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

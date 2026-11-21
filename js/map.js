@@ -842,7 +842,7 @@ async function start() {
         r.name.replace("高速铁路", "高铁"),
         r.start,
         r.end,
-        ...r.aliases, ...(r.scopeNames || []), ...r.namedScopes.map(s => s.name),
+        ...r.aliases, ...(r.searchTerms || []), ...(r.scopeNames || []), ...r.namedScopes.map(s => s.name),
         trafficLabel(r),
         ...r.cities,
         ...r.stationNames,
@@ -863,6 +863,7 @@ async function start() {
   const order=new Map(trunkCatalog.lines.map((r,index)=>[r.id,index]));
   routes=[...routes].sort((a,b)=>(order.get(a.id)??Infinity)-(order.get(b.id)??Infinity));
   q("#passenger-only").checked=new URLSearchParams(location.search).get("network")==="passenger-trunks";
+  const initial = resolveLineAddress(registry, "line");
   const initialQuery = new URLSearchParams(location.search);
   const initialType = initialQuery.get("type");
   if (Object.hasOwn(registry.types, initialType)) filters.type = initialType;
@@ -871,7 +872,6 @@ async function start() {
   updateLayers();
   startEvents();
   applyFilters();
-  const initial = new URLSearchParams(location.search).get("line");
   if (initial && routesById.has(initial)) {
     const target = routesById.get(initial);
     if (filters.type !== "all" && target.type !== filters.type) {

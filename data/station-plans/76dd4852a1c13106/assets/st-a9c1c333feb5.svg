@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="兰溪站附近已测绘轨道">
+<title>兰溪站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M346.8 72.76 L368.78 104.2 L374.84 113.5 L395.45 147.64 L428.8 203.82 L436.94 217.46 L456.17 248.75 L499.03 318.44 L519.09 351.83 M333.53 50.08 L342.35 69.07 M519.09 351.83 L538.01 390.52 M342.35 69.07 L367.59 113.51 L424.31 207.96 L481.0 299.99 L507.15 343.48 L509.99 348.02 L523.72 366.88 M519.09 351.83 L537.21 382.25 L565.93 430.74 L592.63 476.0 M595.7 476.0 L590.9 463.15 L578.13 427.38 L571.67 408.56 L539.8 322.23" stroke="#aa622b" stroke-width="1.65"/><path d="M443.65 235.63 L373.42 118.63 L346.8 72.76 L333.53 50.08 M333.53 50.08 L315.3 20.06 L302.25 1.99 L300.52 0.0 M588.57 476.0 L583.35 467.64 L562.65 432.78 L538.01 390.52 L523.72 366.88 M523.72 366.88 L502.93 331.52 L443.65 235.63" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">兰溪站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

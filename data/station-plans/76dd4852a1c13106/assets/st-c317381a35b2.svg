@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="镇川站附近已测绘轨道">
+<title>镇川站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M700.26 428.72 L684.88 420.85 L670.98 413.73 M672.75 411.38 L684.88 420.85 L698.45 431.44 M95.95 27.1 L81.5 14.74 L67.57 2.82 M64.1 5.65 L81.5 14.74 L98.3 23.51 M644.27 392.75 L625.74 376.95 L143.23 50.64 L121.56 39.18 M119.17 42.74 L138.61 58.23 L614.43 379.16 L642.54 395.4" stroke="#aa622b" stroke-width="1.65"/><path d="M63.39 -0.0 L67.57 2.82 L98.3 23.51 L121.56 39.18 L434.63 250.18 L644.27 392.75 L655.71 400.64 L672.75 411.38 L700.26 428.72 L775.27 476.0 M767.58 476.0 L698.45 431.44 L670.98 413.73 L642.54 395.4 L431.66 251.45 L119.17 42.74 L95.95 27.1 L64.1 5.65 L55.71 -0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">镇川站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

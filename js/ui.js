@@ -108,6 +108,17 @@ function parameterLink(ref) {
   if (ref.section) { params.set("section", ref.section); params.set("scope", ref.scope); }
   return "line-parameters.html?" + params;
 }
+function resolveLineAddress(manifest, parameter) {
+  const url = new URL(location.href);
+  const requested = url.searchParams.get(parameter);
+  const redirect = manifest.lineRedirects?.[requested];
+  if (!redirect?.id) return requested;
+  url.searchParams.set(parameter, redirect.id);
+  if (redirect.scope && parameter === "line" && !url.searchParams.has("scope"))
+    url.searchParams.set("scope", redirect.scope);
+  history.replaceState(history.state, "", url);
+  return redirect.id;
+}
 function recordLink(id) {
   return "line.html?id=" + encodeURIComponent(id);
 }
