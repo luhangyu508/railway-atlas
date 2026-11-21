@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="佛坪站附近已测绘轨道">
+<title>佛坪站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M604.07 127.13 L568.69 149.07 L535.67 173.68 L504.63 195.4 L411.54 266.99 L353.69 311.76 L301.52 355.43 L276.91 378.48 L266.6 389.02 L251.28 404.66 M266.6 389.02 L315.92 351.44 L515.63 195.62 L604.07 127.13 L625.81 114.19 M620.37 121.45 L584.34 153.07 L567.17 166.26 L371.45 318.86 L339.42 344.03 L286.59 381.26 M604.16 119.82 L568.69 149.07" stroke="#aa622b" stroke-width="1.65"/><path d="M159.13 476.0 L244.69 410.09 M244.69 410.09 L251.28 404.66 L625.81 114.19 M775.72 -0.0 L627.06 116.1 M627.06 116.1 L620.37 121.45 L286.59 381.26 L246.41 412.04 M246.41 412.04 L163.49 476.0 M625.81 114.19 L772.01 -0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">佛坪站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

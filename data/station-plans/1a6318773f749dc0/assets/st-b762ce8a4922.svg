@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="怀集站附近已测绘轨道">
+<title>怀集站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M666.75 476.0 L635.78 446.64 L585.42 396.09 L567.44 377.46 M573.32 370.99 L602.16 400.71 L643.51 443.89 L670.27 476.0 M566.13 378.53 L461.84 283.6 L351.99 168.73 L305.92 111.6 L288.96 88.91 M294.53 83.54 L412.4 189.55 L497.16 276.41 L575.61 369.29 M180.68 0.0 L259.9 72.68 L284.67 93.98 L305.92 111.6 M284.67 93.98 L308.19 119.75 M198.95 24.39 L259.9 72.68 M585.42 396.09 L566.13 378.53 M567.44 377.46 L288.96 88.91 L232.93 26.18 M234.66 24.34 L294.53 83.54 L573.32 370.99 M575.61 369.29 L602.16 400.71" stroke="#aa622b" stroke-width="1.65"/><path d="M666.99 476.0 L569.59 375.1 M211.26 0.0 L234.66 24.34 L571.19 373.38 M571.19 373.38 L670.14 476.0 M569.59 375.1 L232.93 26.18 L207.76 0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">怀集站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

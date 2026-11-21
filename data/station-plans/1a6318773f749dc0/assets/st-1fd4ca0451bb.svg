@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="凭祥站附近已测绘轨道">
+<title>凭祥站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M472.27 476.0 L520.52 267.92 L520.73 259.22 L520.63 250.52 L520.22 241.82 L520.22 233.63 L519.47 232.71 L518.37 223.63 L516.94 214.61 L515.18 205.64 L511.84 190.2 L508.98 174.66 L506.61 159.05 L504.72 143.36 L503.32 127.64 L502.44 112.74 L502.0 97.84 L502.0 82.93 L502.43 68.02 L510.43 31.24 L518.04 0.0 M414.29 462.75 L413.55 476.0" stroke="#aa622b" stroke-width="1.65"/><path d="M414.84 476.0 L414.29 462.75 L413.79 450.77 L414.75 429.78 L417.06 379.17 M446.54 239.23 L459.79 189.85 L475.5 134.06 L490.37 85.73 L506.73 36.45 L514.83 0.0 M417.06 379.17 L437.68 272.25 L446.54 239.23" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">凭祥站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

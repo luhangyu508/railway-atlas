@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="凤凰古城站附近已测绘轨道">
+<title>凤凰古城站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M495.91 476.0 L492.77 433.05 L469.29 90.35 L467.03 58.99 L465.75 36.32 L465.47 26.99 M455.92 23.25 L461.8 94.16 L464.55 135.28 L467.24 174.98 L478.89 347.4 L483.98 422.21 L486.79 476.0 M462.56 0.0 L465.47 26.99 L471.61 70.15 L478.4 112.04 L494.99 335.75 L495.49 360.05 L495.63 395.15 L496.97 430.55 L496.41 462.69 L496.07 476.0 M456.1 0.0 L455.92 23.25 L455.86 30.52 L455.09 70.86 L454.66 107.87 L455.15 139.8 L467.09 329.04 L469.78 354.32 L474.16 386.04 L482.92 447.99 L486.47 476.0" stroke="#aa622b" stroke-width="1.65"/><path d="M457.99 0.0 L463.45 83.53 L478.42 296.16 L490.41 476.0 M460.76 0.0 L493.09 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="106" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">凤凰古城站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

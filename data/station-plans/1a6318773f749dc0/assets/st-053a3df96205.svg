@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="黄石北站附近已测绘轨道">
+<title>黄石北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M544.52 31.6 L510.21 92.21 L489.6 125.48 L360.33 329.64 L343.98 355.58 M343.98 355.58 L327.31 380.22 L299.93 418.96 M336.24 350.76 L353.4 324.09 L481.94 120.57 L502.64 87.55 L542.69 31.08 M298.18 418.01 L332.63 356.38 L336.24 350.76" stroke="#aa622b" stroke-width="1.65"/><path d="M261.41 476.0 L298.18 418.01 L338.96 352.07 M338.96 352.07 L356.41 324.8 L411.86 239.59 L484.6 121.96 L531.2 48.99 L542.69 31.08 L562.6 0.0 M564.62 0.0 L544.52 31.6 L533.41 49.09 L487.23 123.25 L358.46 325.88 L341.42 353.75 M341.42 353.75 L299.93 418.96 L264.11 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">黄石北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

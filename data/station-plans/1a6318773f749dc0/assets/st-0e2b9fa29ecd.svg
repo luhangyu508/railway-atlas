@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="阿图什站附近已测绘轨道">
+<title>阿图什站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M352.04 138.7 L367.63 52.13 L368.28 43.69 L368.18 33.74 L367.07 19.73 M366.5 185.8 L379.4 113.66 L381.17 101.25 L382.39 88.75 L382.85 79.7 L382.2 70.84 L380.43 63.29 L377.03 51.57 L367.07 19.73 L363.24 -0.0 M545.18 476.0 L538.95 453.11 L390.37 49.72 L383.84 32.86 L373.48 7.37 L372.07 3.79 L370.47 -0.0 M371.45 -0.0 L381.59 17.25 L391.74 42.51 L538.67 441.85 L542.23 455.56 L545.66 476.0 M539.21 476.0 L375.15 30.83 L368.13 3.25 M363.73 -0.0 L375.15 30.83" stroke="#aa622b" stroke-width="1.65"/><path d="M366.94 -0.0 L368.13 3.25 L453.34 235.33 L541.7 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">阿图什站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

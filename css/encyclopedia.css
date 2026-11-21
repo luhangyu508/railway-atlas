@@ -788,3 +788,29 @@ dialog button {
 .station-sequence li::before { content: counter(rail-stop, decimal-leading-zero); position: absolute; left: 0; top: .8rem; font: 600 .78rem/1.3 monospace; color: #526b61; }
 .station-sequence a { font-weight: 650; color: #224d42; }
 .station-sequence li p { font-size: .86rem; line-height: 1.5; margin: .35rem 0; }
+
+.plan-switch, .station-plan-facts { display: flex; flex-wrap: wrap; gap: .55rem; margin: .6rem 0 1rem; }
+.plan-switch button, .plan-toolbar button { color: #244e40; background: white; border: 1px solid #bccac1; border-radius: 6px; padding: .45rem .85rem; font: inherit; cursor: pointer; }
+.plan-switch button[aria-pressed="true"], .plan-toolbar button[aria-pressed="true"] { color: white; background: #234f42; }
+.plan-figure { margin: .75rem 0; }
+.plan-preview { position: relative; display: block; width: 100%; padding: 0; overflow: hidden; border: 1px solid var(--rule); border-radius: 8px; background: #fafbf8; cursor: zoom-in; }
+.plan-preview img { display: block; width: 100%; height: auto; max-height: 26rem; object-fit: contain; }
+.plan-preview span { position: absolute; bottom: .5rem; right: .5rem; padding: .3rem .65rem; border: 1px solid var(--rule); border-radius: 4px; background: rgba(255,255,255,.94); color: #254e42; font: 600 .84rem/1.3 system-ui; }
+.plan-figure figcaption { margin: .8rem 0; color: #36574a; overflow-wrap: anywhere; }
+.plan-figure figcaption p { margin: .25rem 0; }
+.station-plan-facts span { border-bottom: 1px solid var(--rule); padding: .35rem .15rem; }
+.plan-dialog { box-sizing: border-box; width: min(96vw, 90rem); height: 90vh; height: 90dvh; max-width: 98vw; max-height: 96vh; margin: auto; padding: 0; border: 1px solid var(--rule); border-radius: 9px; background: #fafbf8; color: #193d32; }
+.plan-dialog[open] { display: flex; flex-direction: column; }
+.plan-dialog::backdrop { background: rgba(15,29,24,.7); }
+.plan-toolbar { display: flex; align-items: center; gap: .5rem; padding: .6rem; background: white; border-bottom: 1px solid var(--rule); }
+.plan-toolbar strong { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.plan-toolbar button { flex-shrink: 0; }
+.plan-viewport { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; }
+.plan-viewport img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.plan-viewport.enlarged img { width: max(180%, 90rem); height: auto; max-width: none; }
+@media (max-width: 600px) {
+  .plan-toolbar { font-size: .86rem; }
+  .plan-toolbar button { min-height: 44px; padding: .25rem .55rem; }
+}
+
+.station-sequence .station-diagram-link { display: inline-block; margin-left: .35rem; color: #506a5b; font-size: .78rem; font-weight: 500; text-decoration: underline; text-underline-offset: .2em; }

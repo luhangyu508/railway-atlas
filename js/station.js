@@ -36,6 +36,7 @@ async function station() {
     " · 本库关联 " +
     lines.length +
     " 条线路</p>" + (stop.aliases?.length ? '<p>曾用名或别名 · ' + esc(stop.aliases.join('、')) + '</p>' : '') +
+    '<section class="about-block" id="station-plans"><h2>站场配线图</h2><div class="station-plan-content"><p>正在加载本站图件…</p></div></section>' +
     '<section class="about-block"><h2>本站关联线路</h2><div class="related-list">' +
     lines
       .map((r) =>
@@ -63,22 +64,25 @@ async function station() {
           "</section>"
       )
       .join("") +
-    '<section class="about-block"><h2>车站位置</h2>' +
-    (pos
-      ? '<div class="station-map" id="station-map"></div><p class="subtle-note">WGS84 · ' +
-        pos.map((v) => Number(v).toFixed(5)).join(", ") +
-        "</p>"
-      : "<p>车站坐标待补充。</p>") +
+    '<section class="about-block"><h2>车站位置</h2><div id="station-position"><p>正在核对车站位置…</p></div>' +
     '</section><section class="about-block"><h2>资料与探索</h2>' +
     references(stop.sources) +
     '<a class="primary" href="explore.html?tab=travel&amp;station=' +
     encodeURIComponent(stop.name) +
     '">从本站探索铁路旅行</a></section>';
-  if (pos) {
-    const map = newMap("station-map").setView([pos[1], pos[0]], 7);
+  if (location.hash === "#station-plans") q("#station-plans").scrollIntoView();
+  const verified = await showStationPlans(stop);
+  const point = verified?.coordinate || pos;
+  q("#station-position").innerHTML = point
+    ? '<div class="station-map" id="station-map"></div><p class="subtle-note">WGS84 · ' +
+      point.map(v => Number(v).toFixed(5)).join(", ") +
+      (verified ? ' · ' + sourceLink({title:"站位来源",url:verified.url}) : '') + '</p>'
+    : '<p>车站坐标待补充。</p>';
+  if (point) {
+    const map = newMap("station-map").setView([point[1], point[0]], 7);
     addBase(map);
     labels(map);
-    L.circleMarker([pos[1], pos[0]], {
+    L.circleMarker([point[1], point[0]], {
       radius: 7,
       color: "#fff",
       weight: 3,

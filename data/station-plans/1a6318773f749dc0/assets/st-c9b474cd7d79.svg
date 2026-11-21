@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="甜水堡站附近已测绘轨道">
+<title>甜水堡站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M544.87 396.2 L400.83 96.51 L380.8 56.2 L358.86 16.78 M555.34 419.81 L544.87 396.2 M569.15 453.14 L555.34 419.81 M568.55 476.0 L546.66 429.5 M548.19 424.14 L555.72 440.35 L568.91 476.0 M541.56 410.24 L548.19 424.14 M536.71 399.78 L380.04 77.0 L356.22 18.07 M567.06 453.94 L548.99 422.97 M548.99 422.97 L541.56 410.24 L536.71 399.78" stroke="#aa622b" stroke-width="1.65"/><path d="M350.63 -0.0 L358.86 16.78 L466.54 238.26 L541.96 396.73 M541.96 396.73 L553.88 421.15 M539.33 398.02 L551.25 422.44 M347.36 -0.0 L356.22 18.07 L463.9 239.54 L539.33 398.02 M577.35 476.0 L567.06 453.94 L551.25 422.44 M553.88 421.15 L569.15 453.14 L580.06 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">甜水堡站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

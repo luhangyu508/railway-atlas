@@ -293,7 +293,9 @@ function stationContent(r) {
   const roster = r.extensions?.stationRoster || {};
   const stationRow = (s) => {
     const details = [roster.notes?.[s.name], r.stations.find((item) => item.name === s.name)?.text].filter(Boolean);
-    return '<li><a href="' + stationLink(s.id) + '">' + esc(s.name) + '</a>' +
+    return '<li><a href="' + stationLink(s.id) + '">' + esc(s.name) + '</a> ' +
+      '<a class="station-diagram-link" href="' + stationLink(s.id) + '#station-plans" aria-label="' +
+      esc(s.name) + '站配线图">配线图</a>' +
       [...new Set(details)].map((detail) => '<p>' + esc(detail) + '</p>').join('') + '</li>';
   };
   const stationList = stops => '<ol class="station-sequence">' + stops.map(stationRow).join('') + '</ol>';

@@ -1,0 +1,14 @@
+{
+  "geofabrikFile": "https://download.geofabrik.de/asia/china/china-261120.osm.pbf",
+  "snapshot": "2026-11-20T21:21:21Z",
+  "md5": "fd4b3416f140b5f410fd8c8c664d8470",
+  "license": "ODbL 1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "sourceSubset": "source-railways-2026-11-20.geojson.gz",
+  "sourceSubsetSHA256": "8443c1b458a6d327fe75f80241a8dd09db34614a230437ef946ba9bd15ccee40",
+  "plans": 1403,
+  "ways": 29868,
+  "sourceFeatures": 31251,
+  "positionFeatureCount": 1383
+}

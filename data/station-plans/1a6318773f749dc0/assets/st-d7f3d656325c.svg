@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="怀安站附近已测绘轨道">
+<title>怀安站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M845.09 257.37 L880.0 258.7 M0.0 181.2 L99.48 189.35 L147.85 193.32 L239.51 200.83 L696.2 238.24 L723.74 240.5 L752.25 243.54 L801.7 250.43 M801.7 253.81 L752.09 252.51 L723.58 250.75 L695.25 248.42 L164.26 204.79 L98.77 199.41 L0.0 191.29 M8.1 185.24 L99.48 189.35 M98.77 199.41 L7.73 188.6 M147.64 196.7 L239.51 200.83 M147.85 193.32 L268.35 196.25 L309.73 199.01 L555.85 218.87 L592.45 223.1 L696.2 238.24 M695.25 248.42 L589.33 245.91 L552.72 244.44 L308.63 224.39 L269.27 219.43 L164.26 204.79" stroke="#aa622b" stroke-width="1.65"/><path d="M0.0 184.57 L8.1 185.24 L147.64 196.7 L801.7 250.43 L880.0 256.87 M880.0 260.24 L845.09 257.37 L801.7 253.81 L7.73 188.6 L0.0 187.97" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">怀安站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>
