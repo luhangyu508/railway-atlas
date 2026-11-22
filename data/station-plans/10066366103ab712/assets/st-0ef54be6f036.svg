@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="董集站附近已测绘轨道">
+<title>董集站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M116.95 120.24 L0.0 68.99 M147.9 126.74 L223.81 156.49 L740.6 384.21 L880.0 445.52 M740.6 384.21 L817.01 421.1 M834.49 428.81 L880.0 451.18 M859.81 443.71 L782.44 413.2 M880.0 458.33 L855.97 448.95 L257.16 185.74 L185.88 151.03" stroke="#aa622b" stroke-width="1.65"/><path d="M0.0 61.76 L147.9 126.74 L817.01 421.1 L834.49 428.81 L880.0 448.94 M880.0 452.56 L859.81 443.71 L0.0 65.03 M880.0 456.09 L782.44 413.2 L185.88 151.03 L116.95 120.24 L0.0 66.08" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">董集站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

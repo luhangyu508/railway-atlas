@@ -36,6 +36,7 @@ async function station() {
     " · 本库关联 " +
     lines.length +
     " 条线路</p>" + (stop.aliases?.length ? '<p>曾用名或别名 · ' + esc(stop.aliases.join('、')) + '</p>' : '') +
+    (stop.intro ? '<p class="about-intro">' + esc(stop.intro) + '</p>' : '') +
     '<section class="about-block" id="station-plans"><h2>站场配线图</h2><div class="station-plan-content"><p>正在加载本站图件…</p></div></section>' +
     '<section class="about-block"><h2>本站关联线路</h2><div class="related-list">' +
     lines
@@ -44,7 +45,7 @@ async function station() {
       )
       .join("") +
     "</div></section>" +
-    (stop.accessLines?.length ? '<section class="about-block"><h2>经联络线接入</h2><div class="related-list">' +
+    (stop.accessLines?.length ? '<section class="about-block"><h2>经枢纽或联络线接入</h2><div class="related-list">' +
       stop.accessLines.map((link) => card(recordLink(link.lineId) + '#stations',rows.find((r) => r.id === link.lineId)?.name || link.lineId,link.note)).join('') + '</div></section>' : '') +
     hubs
       .map(

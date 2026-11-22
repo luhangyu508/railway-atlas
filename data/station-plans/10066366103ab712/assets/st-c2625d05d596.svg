@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="大足南站附近已测绘轨道">
+<title>大足南站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M629.06 305.48 L610.68 298.42 L578.42 289.09 L551.03 281.91 L471.16 261.0 L314.27 220.3 L282.63 212.84 L235.63 203.37 M234.67 206.42 L258.09 214.44 L279.84 221.0 L301.65 226.78 L324.58 232.28 L444.11 263.58 L554.72 292.78 L570.61 296.75 L588.38 300.73 L609.85 305.4 L629.09 308.74" stroke="#aa622b" stroke-width="1.65"/><path d="M685.34 320.09 L880.0 373.49 M198.34 193.69 L235.63 203.37 L629.06 305.48 L685.34 320.09 M0.0 145.94 L197.73 196.53 M684.56 322.93 L629.09 308.74 L556.18 289.86 L444.6 260.44 L312.32 226.22 L234.67 206.42 L197.73 196.53 M684.56 322.93 L880.0 376.55 M0.0 142.86 L198.34 193.69" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">大足南站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

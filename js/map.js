@@ -213,6 +213,7 @@ function renderList(resetScroll = false) {
       encodeURIComponent(q("#search").value.trim()) +
       '">检索开放轨道</a><button data-clear>清除筛选和搜索</button></div>';
   updateNationalMapSearch(q("#search").value.trim());
+  showStationMatches(q("#station-hits"), matches, q("#search").value.trim().toLowerCase());
   searchJunctions(q("#search").value.trim());
   const lookup = q("#map-parameters");
   lookup.href = "line-parameters.html?q=" + encodeURIComponent(q("#search").value.trim());
@@ -845,7 +846,7 @@ async function start() {
         ...r.aliases, ...(r.searchTerms || []), ...(r.scopeNames || []), ...r.namedScopes.map(s => s.name),
         trafficLabel(r),
         ...r.cities,
-        ...r.stationNames,
+        ...r.stationNames.map(stationLabel),
         ...(r.junctions || []).map(j => j.name),
         ...(r.stationAliases || []),
         ...r.sections.map((s) => s.name)

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="东郊小镇站附近已测绘轨道">
+<title>东郊小镇站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M-0.0 94.84 L4.77 94.41 L26.88 92.64 L53.06 93.6 L76.04 97.59 M102.31 105.05 L115.39 110.74 L134.8 120.84 L159.7 135.86 L199.64 163.61 L228.23 183.86 L263.87 204.68 L285.64 213.77 L303.86 219.53 L326.73 224.31 L364.58 228.91 L395.85 232.79 L440.0 238.0 L475.57 241.71 L527.25 246.93 L564.95 250.73 L610.33 255.41 L655.66 260.29 L682.75 261.93 L700.53 261.65 L717.07 259.7 L732.64 256.83 L745.64 253.14 L770.97 244.04 L798.57 234.02 L880.0 202.03 M76.04 97.59 L89.35 100.72 L102.31 105.05" stroke="#4c6870" stroke-width="1.65"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="106" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">东郊小镇站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#4c6870" stroke-width="3"/><text x="45" y="464">用途未标注</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "description": "本期选录跨区域或衔接重要铁路枢纽、已有客运资料的干线。普通铁路可兼办货运，部分运营线路按已收录区段展示。",
   "lines": [
     {
@@ -835,6 +835,24 @@
         "title": "合新高铁合泗段开通运营_国家铁路局",
         "url": "https://www.nra.gov.cn/xwzx/tpsp/tpxx/202512/t20251230_350326.shtml"
       }
+    },
+    {
+      "id": "hs-xiyu",
+      "passengerSource": {
+        "title": "西渝高铁西安至安康段开通运营（西安市人民政府）",
+        "url": "https://www.xa.gov.cn/gk/zdjsxm/xmsg/2104404065090850818.html"
+      },
+      "services": [
+        {
+          "number": "G9997",
+          "date": "2026-09-28",
+          "path": "西康段开通当日，G9997 次从西安东出发，45 分钟后抵达安康西。",
+          "source": {
+            "title": "交通运输部 · 四条线路同日开通运营",
+            "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202609/t20260929_4225088.html"
+          }
+        }
+      ]
     }
   ]
 }

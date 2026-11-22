@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="乌拉特前旗站附近已测绘轨道">
+<title>乌拉特前旗站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M258.25 98.95 L323.63 157.45 L553.94 349.04 L608.9 391.73 M611.22 390.55 L544.1 330.72 L291.54 118.42 L231.85 73.54 M197.35 44.55 L151.03 8.71 M637.52 412.19 L682.82 454.71 M291.54 118.42 L254.03 85.89 L244.23 76.0 L223.66 53.47 L189.95 22.89 L163.4 -0.0" stroke="#aa622b" stroke-width="1.65"/><path d="M679.0 476.0 L401.81 244.24 L109.64 -0.0 M144.07 -0.0 L197.35 44.55 L231.85 73.54 L611.22 390.55 L637.52 412.19 L649.81 422.31 L712.53 476.0 M114.93 -0.0 L403.92 241.54 L683.6 476.0 M140.6 -0.0 L151.03 8.71 L229.19 74.49 L258.25 98.95 L608.9 391.73 L647.2 424.14 L682.82 454.71 L707.63 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="122" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">乌拉特前旗站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

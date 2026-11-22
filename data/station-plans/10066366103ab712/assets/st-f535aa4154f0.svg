@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="福山站附近已测绘轨道">
+<title>福山站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M99.44 98.94 L169.18 131.85 M655.94 383.59 L722.52 419.75 M527.13 315.91 L289.41 192.0 L220.43 159.22 M628.48 369.65 L567.91 335.95 M567.91 335.95 L527.13 315.91 M524.42 325.36 L282.19 199.74 L219.07 160.39 M627.61 371.31 L588.85 353.63 L564.02 342.76 M564.02 342.76 L524.42 325.36" stroke="#aa622b" stroke-width="1.65"/><path d="M-0.0 48.14 L99.44 98.94 L182.75 140.54 M566.02 339.87 L597.8 356.1 L627.61 371.31 L722.52 419.75 L832.71 476.0 M527.37 320.69 L566.02 339.87 M205.7 152.96 L219.07 160.39 L527.37 320.69 M182.75 140.54 L205.7 152.96 M183.85 139.24 L206.11 151.21 M-0.0 45.29 L169.18 131.85 L183.85 139.24 M566.68 338.27 L628.48 369.65 L655.94 383.59 L837.94 476.0 M528.31 319.12 L566.68 338.27 M206.11 151.21 L220.43 159.22 L528.31 319.12" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">福山站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

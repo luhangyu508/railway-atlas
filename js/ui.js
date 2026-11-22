@@ -125,6 +125,28 @@ function recordLink(id) {
 function stationLink(id) {
   return "station.html?id=" + encodeURIComponent(id);
 }
+function stationLabel(name) {
+  return name.endsWith("站") ? name : name + "站";
+}
+
+function showStationMatches(host, lines, query) {
+  const found = new Map();
+  if (query) {
+    for (const line of lines) {
+      line.stationIds?.forEach((id, i) => {
+        const name = line.stationNames[i];
+        const label = stationLabel(name);
+        if (query === name.toLowerCase() || query === label.toLowerCase()) found.set(id, label);
+      });
+    }
+  }
+  host.hidden = found.size === 0;
+  host.innerHTML = [...found].map(([id, label]) =>
+    '<a class="context-link" href="' + stationLink(id) + '">' +
+    esc(label) + ' · 查看车站档案</a>'
+  ).join(" ");
+}
+
 function optionalText(value) {
   return value === null || value === undefined || value === "" ? "待补充" : String(value);
 }

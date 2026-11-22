@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="棋子湾站附近已测绘轨道">
+<title>棋子湾站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M324.44 443.23 L366.01 377.48 L553.71 103.39 L596.91 44.89 M599.22 46.34 L560.14 108.21 L365.27 392.85 L350.77 412.96 L336.39 431.76 L318.51 456.54 M349.23 421.3 L320.2 464.56 L316.37 470.14 L312.36 476.0 M365.27 392.85 L338.71 431.86 L332.45 442.67 L327.01 453.14 L320.2 464.56 M316.37 470.14 L312.88 476.0 M630.0 0.0 L615.74 22.3" stroke="#aa622b" stroke-width="1.65"/><path d="M305.19 476.0 L318.51 456.54 L599.22 46.34 L615.74 22.3 L631.07 0.0 M302.0 476.0 L324.44 443.23 L596.91 44.89 L627.76 0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">棋子湾站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

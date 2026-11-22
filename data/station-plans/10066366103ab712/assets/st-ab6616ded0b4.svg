@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="黄陵站附近已测绘轨道">
+<title>黄陵站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M264.13 112.85 L395.99 98.33 L442.62 95.59 L576.26 83.44 L600.55 83.84 L626.42 88.93 L658.94 101.08 L676.58 109.31 L694.61 121.85 L712.24 139.87 L725.18 152.8 L787.09 224.52 L880.0 331.45 M121.68 120.28 L134.22 122.63 M134.22 122.63 L165.96 124.59 L213.37 120.67 L264.13 112.85 M-0.0 132.11 L50.59 122.25 L73.6 118.92 L101.31 118.37 L121.68 120.28" stroke="#4c6870" stroke-width="1.65"/><path d="M511.22 108.41 L562.49 -0.0 M423.94 292.96 L511.22 108.41 M337.38 476.0 L375.21 396.01 M375.21 396.01 L423.94 292.96 M340.68 476.0 L377.9 397.29 M426.64 294.23 L513.92 109.68 M513.92 109.68 L565.79 -0.0 M377.9 397.29 L426.64 294.23" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">黄陵站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#4c6870" stroke-width="3"/><text x="165" y="464">用途未标注</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

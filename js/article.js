@@ -309,7 +309,7 @@ function stationContent(r) {
   return '<p class="station-count">已收录 ' + r.stationRefs.length + ' 座车站</p>' +
     (roster.scope ? note(roster.scope) : '') +
     sequence +
-    (connections ? '<h3>联络线接入站</h3>' + connections : '') +
+    (connections ? '<h3>枢纽或联络线接入站</h3>' + connections : '') +
     (roster.auxiliaryStations?.length ? '<h3>另列技术节点</h3><p>' + esc(roster.auxiliaryStations.join('、')) + '</p>' : '') +
     (roster.sources?.length ? '<details class="section-row"><summary>查看站表依据</summary>' + sources(roster.sources) + '</details>' : '');
 }

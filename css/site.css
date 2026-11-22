@@ -1156,3 +1156,6 @@ input[type="checkbox"] {
 .junction-pin {display:grid;place-items:center}
 .junction-pin span,.junction-symbol {width:10px;height:10px;background:#8c561e;border:2px solid #fff;box-shadow:0 0 0 1px #744615;transform:rotate(45deg)}
 .trunk-map-controls{flex-wrap:wrap}
+
+.station-hits { padding: .55rem .85rem; }
+.station-hits a { display: inline-flex; align-items: center; min-height: 2.5rem; color: var(--brand, #245746); font-weight: 650; }

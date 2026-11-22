@@ -50,7 +50,7 @@ async function openCatalog() {
       ...row.aliases, ...(row.searchTerms || []), ...(row.scopeNames || []),
       trafficLabel(row),
       ...row.cities,
-      ...row.stationNames, ...(row.stationAliases || [])
+      ...row.stationNames.map(stationLabel), ...(row.stationAliases || [])
     ]
       .join(" ")
       .toLocaleLowerCase()
@@ -69,6 +69,7 @@ async function openCatalog() {
         (!history || row.historical) &&
         text.includes(term)
     );
+    showStationMatches(q("#station-hits"), matches.map(({ row }) => row), term);
     const pages = Math.max(1, Math.ceil(matches.length / limit));
     page = Math.min(page, pages);
     q("#catalog-summary").textContent =

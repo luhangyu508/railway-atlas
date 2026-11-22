@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="仙居站附近已测绘轨道">
+<title>仙居站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M411.95 72.41 L391.33 10.3 L388.0 0.0 M397.93 43.95 L391.33 10.3 M495.79 414.66 L478.4 348.62 L389.65 24.46 L381.21 0.66 M375.05 0.0 L376.33 5.54 L397.23 83.21 L469.29 351.28 L498.63 455.87 M505.6 476.0 L498.63 455.87 L489.9 430.64 L462.7 355.35 L453.44 328.15 L403.81 142.17 L396.52 109.56 L392.46 89.94 L376.33 5.54 M510.22 476.0 L495.79 414.66 L484.71 344.55 L478.68 316.93 L471.11 287.63 L430.87 139.71 L417.7 102.14 L409.0 77.6 L397.93 43.95 L389.65 24.46" stroke="#aa622b" stroke-width="1.65"/><path d="M381.03 0.0 L381.21 0.66 L509.48 476.0 M377.68 0.0 L506.42 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">仙居站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

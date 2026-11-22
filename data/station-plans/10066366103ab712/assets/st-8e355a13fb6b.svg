@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="隆昌北站附近已测绘轨道">
+<title>隆昌北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M878.3 398.61 L880.0 399.33 M-0.0 32.96 L56.83 56.56 L79.86 66.15 M831.83 379.26 L878.3 398.61 M335.76 172.71 L366.99 185.71 L380.22 191.22 L557.91 265.21 M79.86 66.15 L86.34 68.85 M292.36 154.64 L335.76 172.71 M86.34 68.85 L292.36 154.64 M604.77 284.72 L831.83 379.26 M557.91 265.21 L604.77 284.72 M833.06 376.29 L879.54 395.64 M879.54 395.64 L880.0 395.83 M81.1 63.17 L87.58 65.88 M-0.0 29.47 L58.06 53.59 L81.1 63.17 M559.14 262.24 L606.01 281.75 M293.6 151.66 L337.0 169.74 M337.0 169.74 L368.23 182.74 L381.46 188.24 L559.14 262.24 M87.58 65.88 L293.6 151.66 M606.01 281.75 L833.06 376.29" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">隆昌北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

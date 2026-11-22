@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="赤壁北站附近已测绘轨道">
+<title>赤壁北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M652.66 114.93 L615.48 129.51 L559.74 154.59 L329.34 260.43 L308.31 269.53 L289.89 278.08 L269.98 288.46 L245.66 301.99 M250.42 302.83 L274.39 294.1 L296.92 284.8 L334.01 267.1 L557.0 164.42 L579.77 154.6 L610.67 140.94 L626.68 132.89 L655.48 117.02 M626.68 132.89 L655.98 120.21 L689.61 106.53 L712.28 97.54 L749.78 81.29 L836.97 38.98 M141.39 349.9 L162.25 341.38 L185.75 332.62" stroke="#aa622b" stroke-width="1.65"/><path d="M880.0 11.52 L714.51 90.21 L655.48 117.02 L432.75 218.18 L250.42 302.83 L185.75 332.62 L0.0 418.2 M0.0 414.87 L141.39 349.9 L245.66 301.99 L431.42 215.25 L652.66 114.93 L713.15 87.3 L880.0 8.37" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">赤壁北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

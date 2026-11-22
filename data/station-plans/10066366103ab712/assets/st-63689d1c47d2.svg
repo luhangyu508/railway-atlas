@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="犀浦站附近已测绘轨道">
+<title>犀浦站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M215.04 0.0 L235.5 13.85 L252.94 27.09 L273.02 42.94 L289.99 58.07 L308.25 75.47 L323.93 91.62 L331.27 99.98 L447.93 226.85 L497.57 286.08 L535.64 327.8 L561.28 356.0 L583.24 380.93 L595.58 394.68 L609.43 410.25 L671.68 476.0 M654.53 476.0 L654.39 475.85 L626.85 444.65 L605.93 421.96 L586.8 401.98 L563.65 378.28 L531.2 347.3 L506.23 323.1 L483.37 300.66 L464.86 280.5 L429.23 242.39 L315.78 115.52 L306.66 105.97 L281.05 78.05 L261.68 57.92 L243.44 40.06 L231.95 29.65 L212.52 13.46 L195.84 0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">犀浦站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

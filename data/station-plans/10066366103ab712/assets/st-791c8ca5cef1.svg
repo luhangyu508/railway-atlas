@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="丹阳北站附近已测绘轨道">
+<title>丹阳北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M612.05 376.25 L597.88 363.82 M600.81 359.68 L614.11 374.47 M597.88 363.82 L587.1 354.37 L570.21 339.88 L350.97 119.96 L323.41 90.56 L298.64 61.84 M300.42 60.55 L323.91 81.78 L344.45 100.3 L579.81 336.33 L600.81 359.68" stroke="#aa622b" stroke-width="1.65"/><path d="M712.41 476.0 L675.44 438.23 L618.71 382.86 L612.05 376.25 L598.59 362.89 M267.68 30.6 L240.0 3.33 L236.66 -0.0 M241.1 -0.0 L269.6 28.82 M598.59 362.89 L566.34 330.89 L540.56 306.19 L376.5 140.65 L343.53 107.14 L298.64 61.84 L267.68 30.6 M269.6 28.82 L300.42 60.55 L308.75 69.06 L538.68 299.96 L600.14 360.67 M600.14 360.67 L614.11 374.47 L622.9 383.15 L692.36 450.95 L717.04 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">丹阳北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

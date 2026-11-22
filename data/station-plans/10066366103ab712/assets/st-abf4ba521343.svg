@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="海林北站附近已测绘轨道">
+<title>海林北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M742.02 324.1 L726.25 317.36 L711.24 310.4 L687.96 296.04 L678.82 290.49 L668.27 285.16 L657.39 280.15 L644.11 274.93 L483.0 224.78 M678.82 290.49 L660.11 278.52 L644.44 270.58 L628.56 262.64 L619.63 258.93 L617.03 257.85 L602.56 253.17 L575.9 244.8 M576.78 242.4 L614.74 254.37 L620.54 256.51 L624.75 258.07 L635.52 263.29 L645.31 268.95 L660.11 278.52 M880.0 366.58 L879.01 366.33 L742.02 324.1 L616.4 284.84 M669.63 304.87 L616.4 284.84 L556.89 266.9 L305.81 188.67 L281.77 181.82 L243.49 172.64 M242.33 175.02 L293.85 194.12 L323.55 203.58 L608.68 292.13 L627.6 297.36 L671.9 308.27" stroke="#4c6870" stroke-width="1.65"/><path d="M89.52 124.79 L243.49 172.64 L304.3 191.54 L669.63 304.87 L880.0 370.13 M880.0 372.8 L671.9 308.27 L304.17 194.25 L242.33 175.02 L88.82 127.28 M88.82 127.28 L6.67 101.34 L0.0 99.3 M0.0 96.76 L6.98 98.89 L89.52 124.79" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">海林北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#4c6870" stroke-width="3"/><text x="165" y="464">用途未标注</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

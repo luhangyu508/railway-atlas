@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="双辽站附近已测绘轨道">
+<title>双辽站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M363.9 476.0 L418.51 363.41 L561.02 75.39 L570.95 52.37 L576.52 36.91 L581.48 19.93 L587.37 -0.0 M357.82 476.0 L503.27 179.3 L575.24 30.53 M360.49 476.0 L417.15 360.63 L557.86 74.92 L567.46 51.21 L575.24 30.53 L587.01 -0.0 M576.08 13.02 L581.62 -0.0 M556.11 35.38 L575.98 -0.0 M336.75 476.0 L526.36 89.18 L533.91 75.01 L551.54 44.75" stroke="#aa622b" stroke-width="1.65"/><path d="M342.13 476.0 L456.3 243.73 L527.87 98.17 L534.09 85.29 L576.42 -0.0 M339.39 476.0 L453.46 243.66 L525.32 97.3 L531.42 84.59 L551.54 44.75 L556.11 35.38 L573.49 -0.0 M582.46 -0.0 L576.08 13.02 L461.89 245.95 L349.13 476.0 M579.54 -0.0 L530.76 99.53 L459.18 244.99 L345.51 476.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="74" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">双辽站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>

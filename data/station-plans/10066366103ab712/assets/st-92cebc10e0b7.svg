@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="476" viewBox="0 0 880 476" role="img" aria-label="高邮北站附近已测绘轨道">
+<title>高邮北站附近已测绘轨道</title>
+<defs><pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#e4e9e3" stroke-width=".8"/></pattern></defs>
+<rect width="100%" height="100%" fill="#f7f8f3"/><rect width="100%" height="100%" fill="url(#grid)"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M483.56 465.69 L479.3 435.37 L473.26 391.34 L469.13 358.04 L444.95 117.11 L439.0 57.54 L438.69 52.82 L437.09 28.64 L436.03 2.43 L435.88 -0.0 M442.45 28.49 L446.01 50.95 L449.34 73.41 L452.03 93.53 L478.88 359.51 L480.94 383.82 L482.07 400.18 L483.7 423.7 L486.05 465.29 M434.03 36.37 L431.97 15.24 L431.23 1.41 L431.22 -0.0 M438.69 52.82 L435.06 17.39 L433.21 -0.0" stroke="#aa622b" stroke-width="1.65"/><path d="M439.57 -0.0 L442.45 28.49 L452.99 133.14 L486.05 465.29 L487.11 476.0 M484.6 476.0 L483.56 465.69 L436.81 -0.0" stroke="#18584c" stroke-width="2.25"/></g>
+<g font-family="system-ui,sans-serif"><circle cx="440.0" cy="238.0" r="5" fill="#173d36" stroke="white" stroke-width="2"/>
+<rect x="451.0" y="206.0" width="90" height="25" rx="4" fill="#fff" stroke="#b5c6bf"/><text x="458.0" y="224.0" font-size="15" fill="#173d36">高邮北站</text>
+<g transform="translate(847 37)"><circle r="23" fill="#fff" fill-opacity=".94" stroke="#bdcbc4"/><text text-anchor="middle" y="-8" font-size="11" font-weight="bold" fill="#1b433b">N</text><path d="M0 -5l-6 16 6-4 6 4z" fill="#1b433b"/></g>
+<rect x="0" y="441" width="880" height="35" fill="#fff" fill-opacity=".96"/>
+<g font-size="13" fill="#233f3b"><path d="M18 459h20" stroke="#18584c" stroke-width="3"/><text x="45" y="464">干线 / 支线</text><path d="M138 459h20" stroke="#aa622b" stroke-width="3"/><text x="165" y="464">站线 / 辅助线</text><text x="800.5" y="458" text-anchor="middle">200 m</text>
+<path d="M747 461v5h107v-5" fill="none" stroke="#244c43" stroke-width="1.8"/></g></g></svg>
